@@ -1,0 +1,2149 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ServerSideXD = Instance.new("ScreenGui")
+local BackFade = Instance.new("Frame")
+local TitleFrame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local NameLabel = Instance.new("TextLabel")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local Verision = Instance.new("TextLabel")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local CheckForUpdates = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local ReBoots = Instance.new("Folder")
+local Panel = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local Execution = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Hubs = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Games = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Pricings = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local NoaRux = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local ScriptHubs = Instance.new("Frame")
+local UICorner_9 = Instance.new("UICorner")
+local Panel_2 = Instance.new("Frame")
+local NameLabel_2 = Instance.new("TextLabel")
+local UICorner_10 = Instance.new("UICorner")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local Hub = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Hub_2 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local Hub_3 = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local Hub_4 = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local NameWa = Instance.new("TextLabel")
+local Games_2 = Instance.new("Frame")
+local UICorner_15 = Instance.new("UICorner")
+local Panel_3 = Instance.new("Frame")
+local NameLabel_3 = Instance.new("TextLabel")
+local UICorner_16 = Instance.new("UICorner")
+local Execute = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local NameLabel_4 = Instance.new("TextLabel")
+local Explains = Instance.new("TextLabel")
+local NameLabel_5 = Instance.new("TextLabel")
+local Execute_2 = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local Explains_2 = Instance.new("TextLabel")
+local TextLabel = Instance.new("TextLabel")
+local ScriptBox = Instance.new("TextBox")
+local UICorner_19 = Instance.new("UICorner")
+local ExecutionFrame = Instance.new("Frame")
+local Panel_4 = Instance.new("Frame")
+local NameLabel_6 = Instance.new("TextLabel")
+local UICorner_20 = Instance.new("UICorner")
+local ScriptBox_2 = Instance.new("TextBox")
+local UICorner_21 = Instance.new("UICorner")
+local Execute_3 = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local Refresh = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local UICorner_24 = Instance.new("UICorner")
+local Clear = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local HideText = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local PanelSide = Instance.new("Frame")
+local UICorner_27 = Instance.new("UICorner")
+local SetWalkSpeed = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local Box = Instance.new("TextBox")
+local UICorner_29 = Instance.new("UICorner")
+local SetJumpPower = Instance.new("TextButton")
+local UICorner_30 = Instance.new("UICorner")
+local Box2 = Instance.new("TextBox")
+local UICorner_31 = Instance.new("UICorner")
+local PrintClient = Instance.new("TextButton")
+local UICorner_32 = Instance.new("UICorner")
+local WarnClient = Instance.new("TextButton")
+local UICorner_33 = Instance.new("UICorner")
+local FunTacch = Instance.new("TextButton")
+local UICorner_34 = Instance.new("UICorner")
+local FunttachEvents = Instance.new("Folder")
+local Pricing = Instance.new("Frame")
+local UICorner_35 = Instance.new("UICorner")
+local Panel_5 = Instance.new("Frame")
+local Name = Instance.new("TextLabel")
+local UICorner_36 = Instance.new("UICorner")
+local NameFree = Instance.new("TextLabel")
+local Line = Instance.new("Frame")
+local UICorner_37 = Instance.new("UICorner")
+local XText = Instance.new("TextLabel")
+local Text = Instance.new("TextLabel")
+local PriceFree = Instance.new("TextLabel")
+local PriceFree2 = Instance.new("TextLabel")
+local Text_2 = Instance.new("TextLabel")
+local XText_2 = Instance.new("TextLabel")
+local PriceNormal2 = Instance.new("TextLabel")
+local PriceNormal = Instance.new("TextLabel")
+local NameNormal = Instance.new("TextLabel")
+local Line_2 = Instance.new("Frame")
+local UICorner_38 = Instance.new("UICorner")
+local XText_3 = Instance.new("TextLabel")
+local Text_3 = Instance.new("TextLabel")
+local XText_4 = Instance.new("TextLabel")
+local Text_4 = Instance.new("TextLabel")
+local XText_5 = Instance.new("TextLabel")
+local Text_5 = Instance.new("TextLabel")
+local Text_6 = Instance.new("TextLabel")
+local XText_6 = Instance.new("TextLabel")
+local NamePremium = Instance.new("TextLabel")
+local PricePremium = Instance.new("TextLabel")
+local PricePremium2 = Instance.new("TextLabel")
+local XText_7 = Instance.new("TextLabel")
+local Text_7 = Instance.new("TextLabel")
+local XText_8 = Instance.new("TextLabel")
+local Text_8 = Instance.new("TextLabel")
+local XText_9 = Instance.new("TextLabel")
+local Text_9 = Instance.new("TextLabel")
+local XText_10 = Instance.new("TextLabel")
+local Text_10 = Instance.new("TextLabel")
+local Freeplantext = Instance.new("TextLabel")
+local Normalplantext = Instance.new("TextLabel")
+local Premiumplantext = Instance.new("TextLabel")
+local PurchasePremium = Instance.new("TextButton")
+local UICorner_39 = Instance.new("UICorner")
+local XText_11 = Instance.new("TextLabel")
+local Text_11 = Instance.new("TextLabel")
+local Text_12 = Instance.new("TextLabel")
+local XText_12 = Instance.new("TextLabel")
+local XText_13 = Instance.new("TextLabel")
+local Text_13 = Instance.new("TextLabel")
+local PriceNormal_2 = Instance.new("TextLabel")
+local PriceNormal_3 = Instance.new("TextLabel")
+local XText_14 = Instance.new("TextLabel")
+local Text_14 = Instance.new("TextLabel")
+local XText_15 = Instance.new("TextLabel")
+local Text_15 = Instance.new("TextLabel")
+local PriceNormal_4 = Instance.new("TextLabel")
+local DiscordLink = Instance.new("Frame")
+local BoxID2 = Instance.new("TextBox")
+local Link = Instance.new("TextLabel")
+local BoxID = Instance.new("TextBox")
+
+--Properties:
+
+ServerSideXD.Name = "ServerSideXD"
+ServerSideXD.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ServerSideXD.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ServerSideXD.ResetOnSpawn = false
+
+BackFade.Name = "BackFade"
+BackFade.Parent = ServerSideXD
+BackFade.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+BackFade.BackgroundTransparency = 1.000
+BackFade.Position = UDim2.new(0, -15, 0, -95)
+BackFade.Size = UDim2.new(0, 1947, 0, 1161)
+
+TitleFrame.Name = "TitleFrame"
+TitleFrame.Parent = ServerSideXD
+TitleFrame.AnchorPoint = Vector2.new(0.5, 0.5)
+TitleFrame.BackgroundColor3 = Color3.fromRGB(55, 55, 55)
+TitleFrame.Position = UDim2.new(0, 962, 0, 6)
+TitleFrame.Size = UDim2.new(0, 468, 0, 83)
+TitleFrame.Visible = false
+
+UICorner.CornerRadius = UDim.new(0, 3)
+UICorner.Parent = TitleFrame
+
+NameLabel.Name = "NameLabel"
+NameLabel.Parent = TitleFrame
+NameLabel.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+NameLabel.BackgroundTransparency = 1.000
+NameLabel.Position = UDim2.new(0.236150026, 0, -0.00541219488, 0)
+NameLabel.Size = UDim2.new(0.435358316, 0, 0.36707291, 0)
+NameLabel.Font = Enum.Font.SourceSans
+NameLabel.Text = "NOARUX"
+NameLabel.TextColor3 = Color3.fromRGB(0, 166, 255)
+NameLabel.TextSize = 30.000
+NameLabel.TextWrapped = true
+
+UIAspectRatioConstraint.Parent = NameLabel
+UIAspectRatioConstraint.AspectRatio = 7.758
+
+Verision.Name = "Verision"
+Verision.Parent = TitleFrame
+Verision.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Verision.BackgroundTransparency = 1.000
+Verision.Position = UDim2.new(0.401721686, 0, -0.0612686574, 0)
+Verision.Size = UDim2.new(0.383115321, 0, 0.46180138, 0)
+Verision.Font = Enum.Font.SourceSans
+Verision.Text = "V3"
+Verision.TextColor3 = Color3.fromRGB(255, 0, 0)
+Verision.TextSize = 30.000
+Verision.TextWrapped = true
+
+UIAspectRatioConstraint_2.Parent = Verision
+UIAspectRatioConstraint_2.AspectRatio = 5.427
+
+CheckForUpdates.Name = "CheckForUpdates"
+CheckForUpdates.Parent = TitleFrame
+CheckForUpdates.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+CheckForUpdates.Position = UDim2.new(0.334048152, 0, 0.567731619, 0)
+CheckForUpdates.Size = UDim2.new(0.267001212, 0, 0.292385459, 0)
+CheckForUpdates.AutoButtonColor = false
+CheckForUpdates.Font = Enum.Font.SourceSans
+CheckForUpdates.Text = "Check For Updates"
+CheckForUpdates.TextColor3 = Color3.fromRGB(255, 255, 255)
+CheckForUpdates.TextScaled = true
+CheckForUpdates.TextSize = 20.000
+CheckForUpdates.TextWrapped = true
+
+UICorner_2.CornerRadius = UDim.new(0, 3)
+UICorner_2.Parent = CheckForUpdates
+
+ReBoots.Name = "ReBoots"
+ReBoots.Parent = CheckForUpdates
+
+Panel.Name = "Panel"
+Panel.Parent = ServerSideXD
+Panel.AnchorPoint = Vector2.new(0.5, 0.5)
+Panel.BackgroundColor3 = Color3.fromRGB(55, 55, 55)
+Panel.Position = UDim2.new(0, 961, 0, 77)
+Panel.Size = UDim2.new(0, 469, 0, 39)
+Panel.Visible = false
+
+UICorner_3.CornerRadius = UDim.new(0, 3)
+UICorner_3.Parent = Panel
+
+Execution.Name = "Execution"
+Execution.Parent = Panel
+Execution.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+Execution.Position = UDim2.new(0.0384275839, 0, 0.148894608, 0)
+Execution.Size = UDim2.new(0.167792037, 0, 0.683174253, 0)
+Execution.AutoButtonColor = false
+Execution.Font = Enum.Font.SourceSans
+Execution.Text = "Executions"
+Execution.TextColor3 = Color3.fromRGB(255, 255, 255)
+Execution.TextSize = 20.000
+
+UICorner_4.CornerRadius = UDim.new(0, 3)
+UICorner_4.Parent = Execution
+
+Hubs.Name = "Hubs"
+Hubs.Parent = Panel
+Hubs.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+Hubs.Position = UDim2.new(0.2221798, 0, 0.148894608, 0)
+Hubs.Size = UDim2.new(0.167792037, 0, 0.683174253, 0)
+Hubs.AutoButtonColor = false
+Hubs.Font = Enum.Font.SourceSans
+Hubs.Text = "ScriptHubs"
+Hubs.TextColor3 = Color3.fromRGB(255, 255, 255)
+Hubs.TextSize = 20.000
+
+UICorner_5.CornerRadius = UDim.new(0, 3)
+UICorner_5.Parent = Hubs
+
+Games.Name = "Games"
+Games.Parent = Panel
+Games.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+Games.Position = UDim2.new(0.402364045, 0, 0.148894608, 0)
+Games.Size = UDim2.new(0.167792037, 0, 0.683174253, 0)
+Games.AutoButtonColor = false
+Games.Font = Enum.Font.SourceSans
+Games.Text = "Games"
+Games.TextColor3 = Color3.fromRGB(255, 255, 255)
+Games.TextSize = 20.000
+
+UICorner_6.CornerRadius = UDim.new(0, 3)
+UICorner_6.Parent = Games
+
+Pricings.Name = "Pricings"
+Pricings.Parent = Panel
+Pricings.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+Pricings.Position = UDim2.new(0.584332228, 0, 0.148894608, 0)
+Pricings.Size = UDim2.new(0.167792037, 0, 0.683174253, 0)
+Pricings.AutoButtonColor = false
+Pricings.Font = Enum.Font.SourceSans
+Pricings.Text = "Pricing"
+Pricings.TextColor3 = Color3.fromRGB(255, 255, 255)
+Pricings.TextSize = 20.000
+
+UICorner_7.CornerRadius = UDim.new(0, 3)
+UICorner_7.Parent = Pricings
+
+NoaRux.Name = "NoaRux"
+NoaRux.Parent = Panel
+NoaRux.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+NoaRux.Position = UDim2.new(0.764516413, 0, 0.148894608, 0)
+NoaRux.Size = UDim2.new(0.167792037, 0, 0.683174253, 0)
+NoaRux.AutoButtonColor = false
+NoaRux.Font = Enum.Font.SourceSans
+NoaRux.Text = "Messenger"
+NoaRux.TextColor3 = Color3.fromRGB(255, 255, 255)
+NoaRux.TextSize = 20.000
+
+UICorner_8.CornerRadius = UDim.new(0, 3)
+UICorner_8.Parent = NoaRux
+
+ScriptHubs.Name = "ScriptHubs"
+ScriptHubs.Parent = ServerSideXD
+ScriptHubs.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+ScriptHubs.Position = UDim2.new(0, 835, 0, 145)
+ScriptHubs.Size = UDim2.new(0, 231, 0, 390)
+ScriptHubs.Visible = false
+
+UICorner_9.CornerRadius = UDim.new(0, 3)
+UICorner_9.Parent = ScriptHubs
+
+Panel_2.Name = "Panel"
+Panel_2.Parent = ScriptHubs
+Panel_2.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+Panel_2.BackgroundTransparency = 0.150
+Panel_2.Position = UDim2.new(0.000521363225, 0, 0, 0)
+Panel_2.Size = UDim2.new(1.00311077, 0, 0.0879234448, 0)
+
+NameLabel_2.Name = "NameLabel"
+NameLabel_2.Parent = Panel_2
+NameLabel_2.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+NameLabel_2.BackgroundTransparency = 1.000
+NameLabel_2.Position = UDim2.new(-0.00243752287, 0, 0.0611741655, 0)
+NameLabel_2.Size = UDim2.new(0, 228, 0, 24)
+NameLabel_2.Font = Enum.Font.SourceSans
+NameLabel_2.Text = "NOARUX SCRIPTHUBS+"
+NameLabel_2.TextColor3 = Color3.fromRGB(255, 0, 0)
+NameLabel_2.TextScaled = true
+NameLabel_2.TextSize = 30.000
+NameLabel_2.TextWrapped = true
+
+UICorner_10.CornerRadius = UDim.new(0, 3)
+UICorner_10.Parent = Panel_2
+
+UIAspectRatioConstraint_3.Parent = Panel_2
+UIAspectRatioConstraint_3.AspectRatio = 7.941
+
+Hub.Name = "Hub"
+Hub.Parent = ScriptHubs
+Hub.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+Hub.Position = UDim2.new(0.185445398, 0, 0.126961842, 0)
+Hub.Size = UDim2.new(0.624507189, 0, 0.0709399357, 0)
+Hub.Font = Enum.Font.SourceSans
+Hub.Text = "Admin Commands"
+Hub.TextColor3 = Color3.fromRGB(255, 255, 255)
+Hub.TextScaled = true
+Hub.TextSize = 25.000
+Hub.TextWrapped = true
+
+UICorner_11.CornerRadius = UDim.new(0, 3)
+UICorner_11.Parent = Hub
+
+Hub_2.Name = "Hub"
+Hub_2.Parent = ScriptHubs
+Hub_2.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+Hub_2.Position = UDim2.new(0.189603135, 0, 0.219085753, 0)
+Hub_2.Size = UDim2.new(0.624507189, 0, 0.0709399357, 0)
+Hub_2.Font = Enum.Font.SourceSans
+Hub_2.Text = "Country Tracker"
+Hub_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Hub_2.TextScaled = true
+Hub_2.TextSize = 25.000
+Hub_2.TextWrapped = true
+
+UICorner_12.CornerRadius = UDim.new(0, 3)
+UICorner_12.Parent = Hub_2
+
+Hub_3.Name = "Hub"
+Hub_3.Parent = ScriptHubs
+Hub_3.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+Hub_3.Position = UDim2.new(0.185445398, 0, 0.316327631, 0)
+Hub_3.Size = UDim2.new(0.624507189, 0, 0.0709399357, 0)
+Hub_3.Font = Enum.Font.SourceSans
+Hub_3.Text = "Comming Soon"
+Hub_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Hub_3.TextSize = 25.000
+
+UICorner_13.CornerRadius = UDim.new(0, 3)
+UICorner_13.Parent = Hub_3
+
+Hub_4.Name = "Hub"
+Hub_4.Parent = ScriptHubs
+Hub_4.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+Hub_4.Position = UDim2.new(0.185445413, 0, 0.411010534, 0)
+Hub_4.Size = UDim2.new(0.624507189, 0, 0.0709399357, 0)
+Hub_4.Font = Enum.Font.SourceSans
+Hub_4.Text = "Comming Soon"
+Hub_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Hub_4.TextSize = 25.000
+
+UICorner_14.CornerRadius = UDim.new(0, 3)
+UICorner_14.Parent = Hub_4
+
+NameWa.Name = "NameWa"
+NameWa.Parent = ScriptHubs
+NameWa.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NameWa.BorderColor3 = Color3.fromRGB(0, 0, 0)
+NameWa.BorderSizePixel = 0
+NameWa.Size = UDim2.new(0, 200, 0, 50)
+NameWa.Visible = false
+NameWa.Font = Enum.Font.SourceSans
+NameWa.TextColor3 = Color3.fromRGB(0, 0, 0)
+NameWa.TextSize = 14.000
+
+Games_2.Name = "Games"
+Games_2.Parent = ServerSideXD
+Games_2.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+Games_2.Position = UDim2.new(0, 552, 0, 201)
+Games_2.Size = UDim2.new(0, 675, 0, 373)
+Games_2.Visible = false
+
+UICorner_15.CornerRadius = UDim.new(0, 3)
+UICorner_15.Parent = Games_2
+
+Panel_3.Name = "Panel"
+Panel_3.Parent = Games_2
+Panel_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Panel_3.BackgroundTransparency = 0.150
+Panel_3.Size = UDim2.new(1.00169325, 0, 0.0839361325, 0)
+
+NameLabel_3.Name = "NameLabel"
+NameLabel_3.Parent = Panel_3
+NameLabel_3.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+NameLabel_3.BackgroundTransparency = 1.000
+NameLabel_3.Position = UDim2.new(0.298379868, 0, 0.119471714, 0)
+NameLabel_3.Size = UDim2.new(0.428835481, 0, 0.869565189, 0)
+NameLabel_3.Font = Enum.Font.SourceSans
+NameLabel_3.Text = "NOARUX GAMES+"
+NameLabel_3.TextColor3 = Color3.fromRGB(255, 0, 0)
+NameLabel_3.TextSize = 30.000
+NameLabel_3.TextWrapped = true
+
+UICorner_16.CornerRadius = UDim.new(0, 3)
+UICorner_16.Parent = Panel_3
+
+Execute.Name = "Execute"
+Execute.Parent = Games_2
+Execute.BackgroundColor3 = Color3.fromRGB(55, 55, 55)
+Execute.Position = UDim2.new(0.0321788192, 0, 0.766228139, 0)
+Execute.Size = UDim2.new(0.261610031, 0, 0.0822366923, 0)
+Execute.AutoButtonColor = false
+Execute.Font = Enum.Font.SourceSans
+Execute.Text = "Join Game"
+Execute.TextColor3 = Color3.fromRGB(255, 255, 255)
+Execute.TextSize = 20.000
+
+UICorner_17.CornerRadius = UDim.new(0, 3)
+UICorner_17.Parent = Execute
+
+NameLabel_4.Name = "NameLabel"
+NameLabel_4.Parent = Games_2
+NameLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NameLabel_4.BackgroundTransparency = 1.000
+NameLabel_4.Position = UDim2.new(0.0168984197, 0, 0.154324368, 0)
+NameLabel_4.Size = UDim2.new(0.331057757, 0, 0.132299677, 0)
+NameLabel_4.Font = Enum.Font.SourceSans
+NameLabel_4.Text = "SCP: Foundation Roleplay"
+NameLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+NameLabel_4.TextScaled = true
+NameLabel_4.TextSize = 30.000
+NameLabel_4.TextWrapped = true
+
+Explains.Name = "Explains"
+Explains.Parent = Games_2
+Explains.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Explains.BackgroundTransparency = 1.000
+Explains.Position = UDim2.new(0.0228243433, 0, 0.379525423, 0)
+Explains.Size = UDim2.new(0.294020712, 0, 0.0786803737, 0)
+Explains.Font = Enum.Font.SourceSans
+Explains.Text = "No explanation"
+Explains.TextColor3 = Color3.fromRGB(255, 255, 255)
+Explains.TextScaled = true
+Explains.TextSize = 30.000
+Explains.TextWrapped = true
+
+NameLabel_5.Name = "NameLabel"
+NameLabel_5.Parent = Games_2
+NameLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NameLabel_5.BackgroundTransparency = 1.000
+NameLabel_5.Position = UDim2.new(0.366528034, 0, 0.167729184, 0)
+NameLabel_5.Size = UDim2.new(0.331057757, 0, 0.105490021, 0)
+NameLabel_5.Font = Enum.Font.SourceSans
+NameLabel_5.Text = "NewUpd) Admin Jumpmap"
+NameLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+NameLabel_5.TextScaled = true
+NameLabel_5.TextSize = 30.000
+NameLabel_5.TextWrapped = true
+
+Execute_2.Name = "Execute"
+Execute_2.Parent = Games_2
+Execute_2.BackgroundColor3 = Color3.fromRGB(55, 55, 55)
+Execute_2.Position = UDim2.new(0.393660307, 0, 0.766228139, 0)
+Execute_2.Size = UDim2.new(0.261610031, 0, 0.0822366923, 0)
+Execute_2.AutoButtonColor = false
+Execute_2.Font = Enum.Font.SourceSans
+Execute_2.Text = "Join Game"
+Execute_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Execute_2.TextSize = 20.000
+
+UICorner_18.CornerRadius = UDim.new(0, 3)
+UICorner_18.Parent = Execute_2
+
+Explains_2.Name = "Explains"
+Explains_2.Parent = Games_2
+Explains_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Explains_2.BackgroundTransparency = 1.000
+Explains_2.Position = UDim2.new(0.384305835, 0, 0.379525423, 0)
+Explains_2.Size = UDim2.new(0.294020712, 0, 0.0786803737, 0)
+Explains_2.Font = Enum.Font.SourceSans
+Explains_2.Text = "No explanation"
+Explains_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Explains_2.TextScaled = true
+Explains_2.TextSize = 30.000
+Explains_2.TextWrapped = true
+
+TextLabel.Parent = Games_2
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.728009641, 0, 0.465316325, 0)
+TextLabel.Size = UDim2.new(0.246613294, 0, 0.0679565147, 0)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "More Games Soon!"
+TextLabel.TextColor3 = Color3.fromRGB(0, 157, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 30.000
+TextLabel.TextWrapped = true
+
+ScriptBox.Name = "ScriptBox"
+ScriptBox.Parent = Games_2
+ScriptBox.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+ScriptBox.ClipsDescendants = true
+ScriptBox.Position = UDim2.new(0.162160367, 0, 0.887114406, 0)
+ScriptBox.Size = UDim2.new(0.565131128, 0, 0.0746532753, 0)
+ScriptBox.ClearTextOnFocus = false
+ScriptBox.Font = Enum.Font.SourceSansLight
+ScriptBox.PlaceholderText = "-- Gamelink"
+ScriptBox.Text = ""
+ScriptBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptBox.TextSize = 20.000
+ScriptBox.TextXAlignment = Enum.TextXAlignment.Left
+ScriptBox.TextYAlignment = Enum.TextYAlignment.Top
+
+UICorner_19.CornerRadius = UDim.new(0, 2)
+UICorner_19.Parent = ScriptBox
+
+ExecutionFrame.Name = "ExecutionFrame"
+ExecutionFrame.Parent = ServerSideXD
+ExecutionFrame.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+ExecutionFrame.Position = UDim2.new(0, 552, 0, 201)
+ExecutionFrame.Size = UDim2.new(0, 697, 0, 355)
+ExecutionFrame.Visible = false
+
+Panel_4.Name = "Panel"
+Panel_4.Parent = ExecutionFrame
+Panel_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Panel_4.BackgroundTransparency = 0.150
+Panel_4.Size = UDim2.new(1.00169325, 0, 0.0839361325, 0)
+
+NameLabel_6.Name = "NameLabel"
+NameLabel_6.Parent = Panel_4
+NameLabel_6.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+NameLabel_6.BackgroundTransparency = 1.000
+NameLabel_6.Position = UDim2.new(0.298379868, 0, 0.119471714, 0)
+NameLabel_6.Size = UDim2.new(0.428835481, 0, 0.869565189, 0)
+NameLabel_6.Font = Enum.Font.SourceSans
+NameLabel_6.Text = "NOARUX EXECUTIONS+"
+NameLabel_6.TextColor3 = Color3.fromRGB(255, 0, 0)
+NameLabel_6.TextSize = 30.000
+NameLabel_6.TextWrapped = true
+
+UICorner_20.CornerRadius = UDim.new(0, 3)
+UICorner_20.Parent = Panel_4
+
+ScriptBox_2.Name = "ScriptBox"
+ScriptBox_2.Parent = ExecutionFrame
+ScriptBox_2.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+ScriptBox_2.ClipsDescendants = true
+ScriptBox_2.Position = UDim2.new(0.157715902, 0, 0.0989107341, 0)
+ScriptBox_2.Size = UDim2.new(0.833279252, 0, 0.747575462, 0)
+ScriptBox_2.ClearTextOnFocus = false
+ScriptBox_2.Font = Enum.Font.SourceSansLight
+ScriptBox_2.PlaceholderText = "-- type script of ss | press ctrl + J to next"
+ScriptBox_2.Text = ""
+ScriptBox_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptBox_2.TextSize = 20.000
+ScriptBox_2.TextXAlignment = Enum.TextXAlignment.Left
+ScriptBox_2.TextYAlignment = Enum.TextYAlignment.Top
+
+UICorner_21.CornerRadius = UDim.new(0, 2)
+UICorner_21.Parent = ScriptBox_2
+
+Execute_3.Name = "Execute"
+Execute_3.Parent = ExecutionFrame
+Execute_3.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+Execute_3.Position = UDim2.new(0.012919575, 0, 0.878828824, 0)
+Execute_3.Size = UDim2.new(0.153461874, 0, 0.0875986144, 0)
+Execute_3.AutoButtonColor = false
+Execute_3.Font = Enum.Font.SourceSans
+Execute_3.Text = "Execute"
+Execute_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Execute_3.TextSize = 20.000
+
+UICorner_22.CornerRadius = UDim.new(0, 3)
+UICorner_22.Parent = Execute_3
+
+Refresh.Name = "Refresh"
+Refresh.Parent = ExecutionFrame
+Refresh.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+Refresh.Position = UDim2.new(0.351761729, 0, 0.878828764, 0)
+Refresh.Size = UDim2.new(0.152999997, 0, 0.0879999995, 0)
+Refresh.AutoButtonColor = false
+Refresh.Font = Enum.Font.SourceSans
+Refresh.Text = "Death(kill) me"
+Refresh.TextColor3 = Color3.fromRGB(255, 255, 255)
+Refresh.TextSize = 20.000
+
+UICorner_23.CornerRadius = UDim.new(0, 3)
+UICorner_23.Parent = Refresh
+
+UICorner_24.CornerRadius = UDim.new(0, 3)
+UICorner_24.Parent = ExecutionFrame
+
+Clear.Name = "Clear"
+Clear.Parent = ExecutionFrame
+Clear.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+Clear.Position = UDim2.new(0.182066709, 0, 0.878828764, 0)
+Clear.Size = UDim2.new(0.152999997, 0, 0.0879999995, 0)
+Clear.AutoButtonColor = false
+Clear.Font = Enum.Font.SourceSans
+Clear.Text = "Clear"
+Clear.TextColor3 = Color3.fromRGB(255, 255, 255)
+Clear.TextSize = 20.000
+
+UICorner_25.CornerRadius = UDim.new(0, 3)
+UICorner_25.Parent = Clear
+
+HideText.Name = "HideText"
+HideText.Parent = ExecutionFrame
+HideText.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+HideText.Position = UDim2.new(0.836847186, 0, 0.878828764, 0)
+HideText.Size = UDim2.new(0.152999997, 0, 0.0879999995, 0)
+HideText.AutoButtonColor = false
+HideText.Font = Enum.Font.SourceSans
+HideText.Text = "HideLua"
+HideText.TextColor3 = Color3.fromRGB(255, 255, 255)
+HideText.TextSize = 20.000
+
+UICorner_26.CornerRadius = UDim.new(0, 3)
+UICorner_26.Parent = HideText
+
+PanelSide.Name = "PanelSide"
+PanelSide.Parent = ExecutionFrame
+PanelSide.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+PanelSide.BackgroundTransparency = 0.150
+PanelSide.Position = UDim2.new(0.00754147582, 0, 0.0976332575, 0)
+PanelSide.Size = UDim2.new(0.141964689, 0, 0.750308037, 0)
+
+UICorner_27.CornerRadius = UDim.new(0, 3)
+UICorner_27.Parent = PanelSide
+
+SetWalkSpeed.Name = "SetWalkSpeed"
+SetWalkSpeed.Parent = PanelSide
+SetWalkSpeed.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+SetWalkSpeed.Position = UDim2.new(0.0341015607, 0, 0.153938115, 0)
+SetWalkSpeed.Size = UDim2.new(0.918422282, 0, 0.116406858, 0)
+SetWalkSpeed.AutoButtonColor = false
+SetWalkSpeed.Font = Enum.Font.SourceSans
+SetWalkSpeed.Text = "Set Speed"
+SetWalkSpeed.TextColor3 = Color3.fromRGB(255, 255, 255)
+SetWalkSpeed.TextSize = 20.000
+
+UICorner_28.CornerRadius = UDim.new(0, 3)
+UICorner_28.Parent = SetWalkSpeed
+
+Box.Name = "Box"
+Box.Parent = PanelSide
+Box.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+Box.ClipsDescendants = true
+Box.Position = UDim2.new(0.0408467762, 0, 0.0262251496, 0)
+Box.Size = UDim2.new(0.918274641, 0, 0.115173243, 0)
+Box.ClearTextOnFocus = false
+Box.Font = Enum.Font.SourceSansLight
+Box.PlaceholderText = "-- amount"
+Box.Text = ""
+Box.TextColor3 = Color3.fromRGB(255, 255, 255)
+Box.TextSize = 20.000
+Box.TextXAlignment = Enum.TextXAlignment.Left
+Box.TextYAlignment = Enum.TextYAlignment.Top
+
+UICorner_29.CornerRadius = UDim.new(0, 3)
+UICorner_29.Parent = Box
+
+SetJumpPower.Name = "SetJumpPower"
+SetJumpPower.Parent = PanelSide
+SetJumpPower.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+SetJumpPower.Position = UDim2.new(0.0341015607, 0, 0.290387154, 0)
+SetJumpPower.Size = UDim2.new(0.918422282, 0, 0.112211727, 0)
+SetJumpPower.AutoButtonColor = false
+SetJumpPower.Font = Enum.Font.SourceSans
+SetJumpPower.Text = "Set Jump"
+SetJumpPower.TextColor3 = Color3.fromRGB(255, 255, 255)
+SetJumpPower.TextSize = 20.000
+
+UICorner_30.CornerRadius = UDim.new(0, 3)
+UICorner_30.Parent = SetJumpPower
+
+Box2.Name = "Box2"
+Box2.Parent = PanelSide
+Box2.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+Box2.ClipsDescendants = true
+Box2.Position = UDim2.new(0.0408466198, 0, 0.428732187, 0)
+Box2.Size = UDim2.new(0.918274522, 0, 0.0888929516, 0)
+Box2.ClearTextOnFocus = false
+Box2.Font = Enum.Font.SourceSansLight
+Box2.PlaceholderText = "-- text"
+Box2.Text = ""
+Box2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Box2.TextSize = 20.000
+Box2.TextXAlignment = Enum.TextXAlignment.Left
+Box2.TextYAlignment = Enum.TextYAlignment.Top
+
+UICorner_31.CornerRadius = UDim.new(0, 3)
+UICorner_31.Parent = Box2
+
+PrintClient.Name = "PrintClient"
+PrintClient.Parent = PanelSide
+PrintClient.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+PrintClient.Position = UDim2.new(0.0341015607, 0, 0.540987015, 0)
+PrintClient.Size = UDim2.new(0.918422282, 0, 0.101389579, 0)
+PrintClient.AutoButtonColor = false
+PrintClient.Font = Enum.Font.SourceSans
+PrintClient.Text = "Print Client"
+PrintClient.TextColor3 = Color3.fromRGB(255, 255, 255)
+PrintClient.TextSize = 20.000
+
+UICorner_32.CornerRadius = UDim.new(0, 3)
+UICorner_32.Parent = PrintClient
+
+WarnClient.Name = "WarnClient"
+WarnClient.Parent = PanelSide
+WarnClient.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+WarnClient.Position = UDim2.new(0.0341015607, 0, 0.661125422, 0)
+WarnClient.Size = UDim2.new(0.918422282, 0, 0.0976352692, 0)
+WarnClient.AutoButtonColor = false
+WarnClient.Font = Enum.Font.SourceSans
+WarnClient.Text = "Warn Client"
+WarnClient.TextColor3 = Color3.fromRGB(255, 255, 255)
+WarnClient.TextSize = 20.000
+
+UICorner_33.CornerRadius = UDim.new(0, 3)
+UICorner_33.Parent = WarnClient
+
+FunTacch.Name = "FunTacch"
+FunTacch.Parent = ExecutionFrame
+FunTacch.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+FunTacch.Position = UDim2.new(0.667550206, 0, 0.878828764, 0)
+FunTacch.Size = UDim2.new(0.152999997, 0, 0.0879999995, 0)
+FunTacch.AutoButtonColor = false
+FunTacch.Font = Enum.Font.SourceSans
+FunTacch.Text = "Funttach"
+FunTacch.TextColor3 = Color3.fromRGB(255, 255, 255)
+FunTacch.TextSize = 20.000
+
+UICorner_34.CornerRadius = UDim.new(0, 3)
+UICorner_34.Parent = FunTacch
+
+FunttachEvents.Name = "Funttach Events"
+FunttachEvents.Parent = FunTacch
+
+Pricing.Name = "Pricing"
+Pricing.Parent = ServerSideXD
+Pricing.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+Pricing.Position = UDim2.new(0, 626, 0, 233)
+Pricing.Size = UDim2.new(0, 700, 0, 358)
+Pricing.Visible = false
+
+UICorner_35.CornerRadius = UDim.new(0, 5)
+UICorner_35.Parent = Pricing
+
+Panel_5.Name = "Panel"
+Panel_5.Parent = Pricing
+Panel_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Panel_5.BackgroundTransparency = 0.150
+Panel_5.Size = UDim2.new(0.996316731, 0, 0.0839361399, 0)
+
+Name.Name = "Name"
+Name.Parent = Panel_5
+Name.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Name.BackgroundTransparency = 1.000
+Name.Position = UDim2.new(0.217126384, 0, 0.0527270883, 0)
+Name.Size = UDim2.new(0.585192204, 0, 0.869565189, 0)
+Name.Font = Enum.Font.SourceSans
+Name.Text = "NOARUX PRICINGS"
+Name.TextColor3 = Color3.fromRGB(0, 166, 255)
+Name.TextSize = 30.000
+Name.TextWrapped = true
+
+UICorner_36.CornerRadius = UDim.new(0, 5)
+UICorner_36.Parent = Panel_5
+
+NameFree.Name = "NameFree"
+NameFree.Parent = Pricing
+NameFree.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+NameFree.BackgroundTransparency = 1.000
+NameFree.Position = UDim2.new(0.0646160394, 0, 0.108282581, 0)
+NameFree.Size = UDim2.new(0.150620386, 0, 0.0917874649, 0)
+NameFree.Font = Enum.Font.SourceSans
+NameFree.Text = "Free Plan"
+NameFree.TextColor3 = Color3.fromRGB(255, 255, 255)
+NameFree.TextScaled = true
+NameFree.TextSize = 30.000
+NameFree.TextWrapped = true
+
+Line.Name = "Line"
+Line.Parent = Pricing
+Line.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Line.BackgroundTransparency = 0.150
+Line.Position = UDim2.new(0.320061266, 0, 0.0833334774, 0)
+Line.Size = UDim2.new(0.00703652157, 0, 0.920355618, 0)
+
+UICorner_37.CornerRadius = UDim.new(0, 5)
+UICorner_37.Parent = Line
+
+XText.Name = "XText"
+XText.Parent = Pricing
+XText.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+XText.BackgroundTransparency = 1.000
+XText.Position = UDim2.new(0.0186742321, 0, 0.389146745, 0)
+XText.Size = UDim2.new(0.0403600335, 0, 0.07326895, 0)
+XText.Font = Enum.Font.SourceSans
+XText.Text = "X"
+XText.TextColor3 = Color3.fromRGB(255, 0, 0)
+XText.TextScaled = true
+XText.TextSize = 30.000
+XText.TextWrapped = true
+
+Text.Name = "Text"
+Text.Parent = Pricing
+Text.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Text.BackgroundTransparency = 1.000
+Text.Position = UDim2.new(0.0600218624, 0, 0.389146745, 0)
+Text.Size = UDim2.new(0.210344717, 0, 0.07326895, 0)
+Text.Font = Enum.Font.SourceSans
+Text.Text = "Run NoaRux"
+Text.TextColor3 = Color3.fromRGB(255, 255, 255)
+Text.TextScaled = true
+Text.TextSize = 30.000
+Text.TextWrapped = true
+Text.TextXAlignment = Enum.TextXAlignment.Left
+
+PriceFree.Name = "PriceFree"
+PriceFree.Parent = Pricing
+PriceFree.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+PriceFree.BackgroundTransparency = 1.000
+PriceFree.Position = UDim2.new(0.0186742339, 0, 0.19778876, 0)
+PriceFree.Size = UDim2.new(0.0832390562, 0, 0.138083771, 0)
+PriceFree.Font = Enum.Font.SourceSans
+PriceFree.Text = "0$"
+PriceFree.TextColor3 = Color3.fromRGB(255, 0, 0)
+PriceFree.TextScaled = true
+PriceFree.TextSize = 30.000
+PriceFree.TextWrapped = true
+
+PriceFree2.Name = "PriceFree2"
+PriceFree2.Parent = Pricing
+PriceFree2.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+PriceFree2.BackgroundTransparency = 1.000
+PriceFree2.Position = UDim2.new(0.0906497315, 0, 0.240998641, 0)
+PriceFree2.Size = UDim2.new(0.151912749, 0, 0.0855308622, 0)
+PriceFree2.Font = Enum.Font.SourceSans
+PriceFree2.Text = "/life time"
+PriceFree2.TextColor3 = Color3.fromRGB(255, 255, 255)
+PriceFree2.TextScaled = true
+PriceFree2.TextSize = 30.000
+PriceFree2.TextWrapped = true
+PriceFree2.TextXAlignment = Enum.TextXAlignment.Left
+
+Text_2.Name = "Text"
+Text_2.Parent = Pricing
+Text_2.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Text_2.BackgroundTransparency = 1.000
+Text_2.Position = UDim2.new(0.395397067, 0, 0.324331939, 0)
+Text_2.Size = UDim2.new(0.210344717, 0, 0.07326895, 0)
+Text_2.Font = Enum.Font.SourceSans
+Text_2.Text = "Run NoaRux"
+Text_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Text_2.TextScaled = true
+Text_2.TextSize = 30.000
+Text_2.TextWrapped = true
+Text_2.TextXAlignment = Enum.TextXAlignment.Left
+
+XText_2.Name = "XText"
+XText_2.Parent = Pricing
+XText_2.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+XText_2.BackgroundTransparency = 1.000
+XText_2.Position = UDim2.new(0.355580807, 0, 0.324331939, 0)
+XText_2.Size = UDim2.new(0.0403600335, 0, 0.07326895, 0)
+XText_2.Font = Enum.Font.SourceSans
+XText_2.Text = "O"
+XText_2.TextColor3 = Color3.fromRGB(84, 255, 10)
+XText_2.TextScaled = true
+XText_2.TextSize = 30.000
+XText_2.TextWrapped = true
+
+PriceNormal2.Name = "PriceNormal2"
+PriceNormal2.Parent = Pricing
+PriceNormal2.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+PriceNormal2.BackgroundTransparency = 1.000
+PriceNormal2.Position = UDim2.new(0.46277836, 0, 0.222480118, 0)
+PriceNormal2.Size = UDim2.new(0.151912749, 0, 0.0855308622, 0)
+PriceNormal2.Font = Enum.Font.SourceSans
+PriceNormal2.Text = "/life time"
+PriceNormal2.TextColor3 = Color3.fromRGB(255, 255, 255)
+PriceNormal2.TextScaled = true
+PriceNormal2.TextSize = 30.000
+PriceNormal2.TextWrapped = true
+PriceNormal2.TextXAlignment = Enum.TextXAlignment.Left
+
+PriceNormal.Name = "PriceNormal"
+PriceNormal.Parent = Pricing
+PriceNormal.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+PriceNormal.BackgroundTransparency = 1.000
+PriceNormal.Position = UDim2.new(0.361706376, 0, 0.200875178, 0)
+PriceNormal.Size = UDim2.new(0.101615779, 0, 0.138083771, 0)
+PriceNormal.Font = Enum.Font.SourceSans
+PriceNormal.Text = "2.99$"
+PriceNormal.TextColor3 = Color3.fromRGB(255, 0, 0)
+PriceNormal.TextScaled = true
+PriceNormal.TextSize = 30.000
+PriceNormal.TextWrapped = true
+
+NameNormal.Name = "NameNormal"
+NameNormal.Parent = Pricing
+NameNormal.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+NameNormal.BackgroundTransparency = 1.000
+NameNormal.Position = UDim2.new(0.361706376, 0, 0.108282581, 0)
+NameNormal.Size = UDim2.new(0.234847024, 0, 0.101046719, 0)
+NameNormal.Font = Enum.Font.SourceSans
+NameNormal.Text = "Normal Plan -25% off!"
+NameNormal.TextColor3 = Color3.fromRGB(255, 255, 0)
+NameNormal.TextScaled = true
+NameNormal.TextSize = 30.000
+NameNormal.TextWrapped = true
+
+Line_2.Name = "Line"
+Line_2.Parent = Pricing
+Line_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Line_2.BackgroundTransparency = 0.150
+Line_2.Position = UDim2.new(0.626339972, 0, 0.0771606416, 0)
+Line_2.Size = UDim2.new(0.00703652157, 0, 0.920355618, 0)
+
+UICorner_38.CornerRadius = UDim.new(0, 5)
+UICorner_38.Parent = Line_2
+
+XText_3.Name = "XText"
+XText_3.Parent = Pricing
+XText_3.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+XText_3.BackgroundTransparency = 1.000
+XText_3.Position = UDim2.new(0.355580807, 0, 0.416924536, 0)
+XText_3.Size = UDim2.new(0.0403600335, 0, 0.07326895, 0)
+XText_3.Font = Enum.Font.SourceSans
+XText_3.Text = "O"
+XText_3.TextColor3 = Color3.fromRGB(84, 255, 10)
+XText_3.TextScaled = true
+XText_3.TextSize = 30.000
+XText_3.TextWrapped = true
+
+Text_3.Name = "Text"
+Text_3.Parent = Pricing
+Text_3.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Text_3.BackgroundTransparency = 1.000
+Text_3.Position = UDim2.new(0.395397067, 0, 0.416924536, 0)
+Text_3.Size = UDim2.new(0.210344717, 0, 0.07326895, 0)
+Text_3.Font = Enum.Font.SourceSans
+Text_3.Text = "UI Support"
+Text_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Text_3.TextScaled = true
+Text_3.TextSize = 30.000
+Text_3.TextWrapped = true
+Text_3.TextXAlignment = Enum.TextXAlignment.Left
+
+XText_4.Name = "XText"
+XText_4.Parent = Pricing
+XText_4.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+XText_4.BackgroundTransparency = 1.000
+XText_4.Position = UDim2.new(0.355580837, 0, 0.506430686, 0)
+XText_4.Size = UDim2.new(0.0403600335, 0, 0.07326895, 0)
+XText_4.Font = Enum.Font.SourceSans
+XText_4.Text = "O"
+XText_4.TextColor3 = Color3.fromRGB(84, 255, 10)
+XText_4.TextScaled = true
+XText_4.TextSize = 30.000
+XText_4.TextWrapped = true
+
+Text_4.Name = "Text"
+Text_4.Parent = Pricing
+Text_4.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Text_4.BackgroundTransparency = 1.000
+Text_4.Position = UDim2.new(0.395397067, 0, 0.506430686, 0)
+Text_4.Size = UDim2.new(0.210344717, 0, 0.07326895, 0)
+Text_4.Font = Enum.Font.SourceSans
+Text_4.Text = "ESG UI"
+Text_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Text_4.TextScaled = true
+Text_4.TextSize = 30.000
+Text_4.TextWrapped = true
+Text_4.TextXAlignment = Enum.TextXAlignment.Left
+
+XText_5.Name = "XText"
+XText_5.Parent = Pricing
+XText_5.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+XText_5.BackgroundTransparency = 1.000
+XText_5.Position = UDim2.new(0.355580807, 0, 0.577418327, 0)
+XText_5.Size = UDim2.new(0.0403600335, 0, 0.07326895, 0)
+XText_5.Font = Enum.Font.SourceSans
+XText_5.Text = "O"
+XText_5.TextColor3 = Color3.fromRGB(84, 255, 10)
+XText_5.TextScaled = true
+XText_5.TextSize = 30.000
+XText_5.TextWrapped = true
+
+Text_5.Name = "Text"
+Text_5.Parent = Pricing
+Text_5.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Text_5.BackgroundTransparency = 1.000
+Text_5.Position = UDim2.new(0.395397037, 0, 0.577418387, 0)
+Text_5.Size = UDim2.new(0.221064493, 0, 0.0763553679, 0)
+Text_5.Font = Enum.Font.SourceSans
+Text_5.Text = "Get updates right away"
+Text_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Text_5.TextScaled = true
+Text_5.TextSize = 30.000
+Text_5.TextWrapped = true
+Text_5.TextXAlignment = Enum.TextXAlignment.Left
+
+Text_6.Name = "Text"
+Text_6.Parent = Pricing
+Text_6.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Text_6.BackgroundTransparency = 1.000
+Text_6.Position = UDim2.new(0.058490485, 0, 0.490998626, 0)
+Text_6.Size = UDim2.new(0.210344717, 0, 0.07326895, 0)
+Text_6.Font = Enum.Font.SourceSans
+Text_6.Text = "Support within 10 weeks"
+Text_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+Text_6.TextScaled = true
+Text_6.TextSize = 30.000
+Text_6.TextWrapped = true
+Text_6.TextXAlignment = Enum.TextXAlignment.Left
+
+XText_6.Name = "XText"
+XText_6.Parent = Pricing
+XText_6.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+XText_6.BackgroundTransparency = 1.000
+XText_6.Position = UDim2.new(0.0186742246, 0, 0.490998626, 0)
+XText_6.Size = UDim2.new(0.0403600335, 0, 0.07326895, 0)
+XText_6.Font = Enum.Font.SourceSans
+XText_6.Text = "O"
+XText_6.TextColor3 = Color3.fromRGB(84, 255, 10)
+XText_6.TextScaled = true
+XText_6.TextSize = 30.000
+XText_6.TextWrapped = true
+
+NamePremium.Name = "NamePremium"
+NamePremium.Parent = Pricing
+NamePremium.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+NamePremium.BackgroundTransparency = 1.000
+NamePremium.Position = UDim2.new(0.649608493, 0, 0.0959369019, 0)
+NamePremium.Size = UDim2.new(0.303759724, 0, 0.101046719, 0)
+NamePremium.Font = Enum.Font.SourceSans
+NamePremium.Text = "PREMIUM PLAN+"
+NamePremium.TextColor3 = Color3.fromRGB(0, 166, 255)
+NamePremium.TextScaled = true
+NamePremium.TextSize = 30.000
+NamePremium.TextWrapped = true
+
+PricePremium.Name = "PricePremium"
+PricePremium.Parent = Pricing
+PricePremium.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+PricePremium.BackgroundTransparency = 1.000
+PricePremium.Position = UDim2.new(0.664922357, 0, 0.185443074, 0)
+PricePremium.Size = UDim2.new(0.101615779, 0, 0.138083771, 0)
+PricePremium.Font = Enum.Font.SourceSans
+PricePremium.Text = "5.99$"
+PricePremium.TextColor3 = Color3.fromRGB(255, 0, 0)
+PricePremium.TextScaled = true
+PricePremium.TextSize = 30.000
+PricePremium.TextWrapped = true
+
+PricePremium2.Name = "PricePremium2"
+PricePremium2.Parent = Pricing
+PricePremium2.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+PricePremium2.BackgroundTransparency = 1.000
+PricePremium2.Position = UDim2.new(0.76599431, 0, 0.210134432, 0)
+PricePremium2.Size = UDim2.new(0.151912749, 0, 0.0855308622, 0)
+PricePremium2.Font = Enum.Font.SourceSans
+PricePremium2.Text = "/life time"
+PricePremium2.TextColor3 = Color3.fromRGB(255, 255, 255)
+PricePremium2.TextScaled = true
+PricePremium2.TextSize = 30.000
+PricePremium2.TextWrapped = true
+PricePremium2.TextXAlignment = Enum.TextXAlignment.Left
+
+XText_7.Name = "XText"
+XText_7.Parent = Pricing
+XText_7.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+XText_7.BackgroundTransparency = 1.000
+XText_7.Position = UDim2.new(0.672579288, 0, 0.315072685, 0)
+XText_7.Size = UDim2.new(0.0403600335, 0, 0.07326895, 0)
+XText_7.Font = Enum.Font.SourceSans
+XText_7.Text = "O"
+XText_7.TextColor3 = Color3.fromRGB(84, 255, 10)
+XText_7.TextScaled = true
+XText_7.TextSize = 30.000
+XText_7.TextWrapped = true
+
+Text_7.Name = "Text"
+Text_7.Parent = Pricing
+Text_7.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Text_7.BackgroundTransparency = 1.000
+Text_7.Position = UDim2.new(0.712395608, 0, 0.315072715, 0)
+Text_7.Size = UDim2.new(0.236378387, 0, 0.07326895, 0)
+Text_7.Font = Enum.Font.SourceSans
+Text_7.Text = "Everything in normal"
+Text_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+Text_7.TextScaled = true
+Text_7.TextSize = 30.000
+Text_7.TextWrapped = true
+Text_7.TextXAlignment = Enum.TextXAlignment.Left
+
+XText_8.Name = "XText"
+XText_8.Parent = Pricing
+XText_8.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+XText_8.BackgroundTransparency = 1.000
+XText_8.Position = UDim2.new(0.672579288, 0, 0.395319581, 0)
+XText_8.Size = UDim2.new(0.0403600335, 0, 0.07326895, 0)
+XText_8.Font = Enum.Font.SourceSans
+XText_8.Text = "O"
+XText_8.TextColor3 = Color3.fromRGB(84, 255, 10)
+XText_8.TextScaled = true
+XText_8.TextSize = 30.000
+XText_8.TextWrapped = true
+
+Text_8.Name = "Text"
+Text_8.Parent = Pricing
+Text_8.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Text_8.BackgroundTransparency = 1.000
+Text_8.Position = UDim2.new(0.712395608, 0, 0.386060357, 0)
+Text_8.Size = UDim2.new(0.247098148, 0, 0.07326895, 0)
+Text_8.Font = Enum.Font.SourceSans
+Text_8.Text = "Execute script instant"
+Text_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+Text_8.TextScaled = true
+Text_8.TextSize = 30.000
+Text_8.TextWrapped = true
+Text_8.TextXAlignment = Enum.TextXAlignment.Left
+
+XText_9.Name = "XText"
+XText_9.Parent = Pricing
+XText_9.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+XText_9.BackgroundTransparency = 1.000
+XText_9.Position = UDim2.new(0.672579288, 0, 0.457047969, 0)
+XText_9.Size = UDim2.new(0.0403600335, 0, 0.07326895, 0)
+XText_9.Font = Enum.Font.SourceSans
+XText_9.Text = "O"
+XText_9.TextColor3 = Color3.fromRGB(84, 255, 10)
+XText_9.TextScaled = true
+XText_9.TextSize = 30.000
+XText_9.TextWrapped = true
+
+Text_9.Name = "Text"
+Text_9.Parent = Pricing
+Text_9.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Text_9.BackgroundTransparency = 1.000
+Text_9.Position = UDim2.new(0.712395608, 0, 0.457047999, 0)
+Text_9.Size = UDim2.new(0.267006248, 0, 0.07326895, 0)
+Text_9.Font = Enum.Font.SourceSans
+Text_9.Text = "Early access to new features"
+Text_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+Text_9.TextScaled = true
+Text_9.TextSize = 30.000
+Text_9.TextWrapped = true
+Text_9.TextXAlignment = Enum.TextXAlignment.Left
+
+XText_10.Name = "XText"
+XText_10.Parent = Pricing
+XText_10.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+XText_10.BackgroundTransparency = 1.000
+XText_10.Position = UDim2.new(0.672579288, 0, 0.592850447, 0)
+XText_10.Size = UDim2.new(0.0403600335, 0, 0.07326895, 0)
+XText_10.Font = Enum.Font.SourceSans
+XText_10.Text = "O"
+XText_10.TextColor3 = Color3.fromRGB(84, 255, 10)
+XText_10.TextScaled = true
+XText_10.TextSize = 30.000
+XText_10.TextWrapped = true
+
+Text_10.Name = "Text"
+Text_10.Parent = Pricing
+Text_10.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Text_10.BackgroundTransparency = 1.000
+Text_10.Position = UDim2.new(0.712395608, 0, 0.592850506, 0)
+Text_10.Size = UDim2.new(0.262412101, 0, 0.07326895, 0)
+Text_10.Font = Enum.Font.SourceSans
+Text_10.Text = "Bypass our blacklist policy"
+Text_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+Text_10.TextScaled = true
+Text_10.TextSize = 30.000
+Text_10.TextWrapped = true
+Text_10.TextXAlignment = Enum.TextXAlignment.Left
+
+Freeplantext.Name = "Freeplantext"
+Freeplantext.Parent = Pricing
+Freeplantext.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Freeplantext.BackgroundTransparency = 1.000
+Freeplantext.Position = UDim2.new(0.0401138365, 0, 0.824331999, 0)
+Freeplantext.Size = UDim2.new(0.236378416, 0, 0.156602308, 0)
+Freeplantext.Font = Enum.Font.SourceSans
+Freeplantext.Text = "Our free plan for users who are just starting out"
+Freeplantext.TextColor3 = Color3.fromRGB(255, 255, 255)
+Freeplantext.TextScaled = true
+Freeplantext.TextSize = 30.000
+Freeplantext.TextWrapped = true
+Freeplantext.TextXAlignment = Enum.TextXAlignment.Left
+
+Normalplantext.Name = "Normalplantext"
+Normalplantext.Parent = Pricing
+Normalplantext.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Normalplantext.BackgroundTransparency = 1.000
+Normalplantext.Position = UDim2.new(0.349455327, 0, 0.808899879, 0)
+Normalplantext.Size = UDim2.new(0.236378416, 0, 0.190552965, 0)
+Normalplantext.Font = Enum.Font.SourceSans
+Normalplantext.Text = "Our normal plan for users who are willing to take advantage of our service."
+Normalplantext.TextColor3 = Color3.fromRGB(255, 255, 255)
+Normalplantext.TextScaled = true
+Normalplantext.TextSize = 30.000
+Normalplantext.TextWrapped = true
+Normalplantext.TextXAlignment = Enum.TextXAlignment.Left
+
+Premiumplantext.Name = "Premiumplantext"
+Premiumplantext.Parent = Pricing
+Premiumplantext.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Premiumplantext.BackgroundTransparency = 1.000
+Premiumplantext.Position = UDim2.new(0.687893331, 0, 0.811986268, 0)
+Premiumplantext.Size = UDim2.new(0.260880709, 0, 0.19055298, 0)
+Premiumplantext.Font = Enum.Font.SourceSans
+Premiumplantext.Text = "For our more advanced users. Does not include access to our more games."
+Premiumplantext.TextColor3 = Color3.fromRGB(255, 255, 255)
+Premiumplantext.TextScaled = true
+Premiumplantext.TextSize = 30.000
+Premiumplantext.TextWrapped = true
+Premiumplantext.TextXAlignment = Enum.TextXAlignment.Left
+
+PurchasePremium.Name = "PurchasePremium"
+PurchasePremium.Parent = Pricing
+PurchasePremium.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+PurchasePremium.Position = UDim2.new(0.0122867227, 0, 0.013092041, 0)
+PurchasePremium.Size = UDim2.new(0.167792037, 0, 0.0535446927, 0)
+PurchasePremium.AutoButtonColor = false
+PurchasePremium.Font = Enum.Font.SourceSans
+PurchasePremium.Text = "Purchase Plan"
+PurchasePremium.TextColor3 = Color3.fromRGB(255, 255, 255)
+PurchasePremium.TextSize = 20.000
+
+UICorner_39.CornerRadius = UDim.new(0, 5)
+UICorner_39.Parent = PurchasePremium
+
+XText_11.Name = "XText"
+XText_11.Parent = Pricing
+XText_11.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+XText_11.BackgroundTransparency = 1.000
+XText_11.Position = UDim2.new(0.672579288, 0, 0.663838089, 0)
+XText_11.Size = UDim2.new(0.0403600335, 0, 0.07326895, 0)
+XText_11.Font = Enum.Font.SourceSans
+XText_11.Text = "O"
+XText_11.TextColor3 = Color3.fromRGB(84, 255, 10)
+XText_11.TextScaled = true
+XText_11.TextSize = 30.000
+XText_11.TextWrapped = true
+
+Text_11.Name = "Text"
+Text_11.Parent = Pricing
+Text_11.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Text_11.BackgroundTransparency = 1.000
+Text_11.Position = UDim2.new(0.712395608, 0, 0.663838089, 0)
+Text_11.Size = UDim2.new(0.279257417, 0, 0.07326895, 0)
+Text_11.Font = Enum.Font.SourceSans
+Text_11.Text = "Premium UI&HideLua Resource"
+Text_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+Text_11.TextScaled = true
+Text_11.TextSize = 30.000
+Text_11.TextWrapped = true
+Text_11.TextXAlignment = Enum.TextXAlignment.Left
+
+Text_12.Name = "Text"
+Text_12.Parent = Pricing
+Text_12.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Text_12.BackgroundTransparency = 1.000
+Text_12.Position = UDim2.new(0.395397037, 0, 0.651492476, 0)
+Text_12.Size = UDim2.new(0.224127263, 0, 0.0701825395, 0)
+Text_12.Font = Enum.Font.SourceSans
+Text_12.Text = "Support whitin 2 weeks"
+Text_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+Text_12.TextScaled = true
+Text_12.TextSize = 30.000
+Text_12.TextWrapped = true
+Text_12.TextXAlignment = Enum.TextXAlignment.Left
+
+XText_12.Name = "XText"
+XText_12.Parent = Pricing
+XText_12.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+XText_12.BackgroundTransparency = 1.000
+XText_12.Position = UDim2.new(0.355580807, 0, 0.648406029, 0)
+XText_12.Size = UDim2.new(0.0403600335, 0, 0.07326895, 0)
+XText_12.Font = Enum.Font.SourceSans
+XText_12.Text = "O"
+XText_12.TextColor3 = Color3.fromRGB(84, 255, 10)
+XText_12.TextScaled = true
+XText_12.TextSize = 30.000
+XText_12.TextWrapped = true
+
+XText_13.Name = "XText"
+XText_13.Parent = Pricing
+XText_13.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+XText_13.BackgroundTransparency = 1.000
+XText_13.Position = UDim2.new(0.355580807, 0, 0.719393671, 0)
+XText_13.Size = UDim2.new(0.0403600335, 0, 0.07326895, 0)
+XText_13.Font = Enum.Font.SourceSans
+XText_13.Text = "O"
+XText_13.TextColor3 = Color3.fromRGB(84, 255, 10)
+XText_13.TextScaled = true
+XText_13.TextSize = 30.000
+XText_13.TextWrapped = true
+
+Text_13.Name = "Text"
+Text_13.Parent = Pricing
+Text_13.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Text_13.BackgroundTransparency = 1.000
+Text_13.Position = UDim2.new(0.395397037, 0, 0.722480118, 0)
+Text_13.Size = UDim2.new(0.210344717, 0, 0.0701825395, 0)
+Text_13.Font = Enum.Font.SourceSans
+Text_13.Text = "Apply ticket support"
+Text_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+Text_13.TextScaled = true
+Text_13.TextSize = 30.000
+Text_13.TextWrapped = true
+Text_13.TextXAlignment = Enum.TextXAlignment.Left
+
+PriceNormal_2.Name = "PriceNormal"
+PriceNormal_2.Parent = Pricing
+PriceNormal_2.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+PriceNormal_2.BackgroundTransparency = 1.000
+PriceNormal_2.Position = UDim2.new(0.336950004, 0, 0.704997301, 0)
+PriceNormal_2.Rotation = -15.000
+PriceNormal_2.Size = UDim2.new(0.057713449, 0, 0.12983951, 0)
+PriceNormal_2.Font = Enum.Font.SourceSans
+PriceNormal_2.Text = "NEW!"
+PriceNormal_2.TextColor3 = Color3.fromRGB(255, 0, 0)
+PriceNormal_2.TextScaled = true
+PriceNormal_2.TextSize = 30.000
+PriceNormal_2.TextWrapped = true
+
+PriceNormal_3.Name = "PriceNormal"
+PriceNormal_3.Parent = Pricing
+PriceNormal_3.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+PriceNormal_3.BackgroundTransparency = 1.000
+PriceNormal_3.Position = UDim2.new(0.653948545, 0, 0.643268943, 0)
+PriceNormal_3.Rotation = -15.000
+PriceNormal_3.Size = UDim2.new(0.057713449, 0, 0.12983951, 0)
+PriceNormal_3.Font = Enum.Font.SourceSans
+PriceNormal_3.Text = "NEW!"
+PriceNormal_3.TextColor3 = Color3.fromRGB(255, 0, 0)
+PriceNormal_3.TextScaled = true
+PriceNormal_3.TextSize = 30.000
+PriceNormal_3.TextWrapped = true
+
+XText_14.Name = "XText"
+XText_14.Parent = Pricing
+XText_14.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+XText_14.BackgroundTransparency = 1.000
+XText_14.Position = UDim2.new(0.672579288, 0, 0.521862805, 0)
+XText_14.Size = UDim2.new(0.0403600335, 0, 0.07326895, 0)
+XText_14.Font = Enum.Font.SourceSans
+XText_14.Text = "O"
+XText_14.TextColor3 = Color3.fromRGB(84, 255, 10)
+XText_14.TextScaled = true
+XText_14.TextSize = 30.000
+XText_14.TextWrapped = true
+
+Text_14.Name = "Text"
+Text_14.Parent = Pricing
+Text_14.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Text_14.BackgroundTransparency = 1.000
+Text_14.Position = UDim2.new(0.712395608, 0, 0.5280357, 0)
+Text_14.Size = UDim2.new(0.262412101, 0, 0.0609232597, 0)
+Text_14.Font = Enum.Font.SourceSans
+Text_14.Text = "Support whitin 1weeks"
+Text_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+Text_14.TextScaled = true
+Text_14.TextSize = 30.000
+Text_14.TextWrapped = true
+Text_14.TextXAlignment = Enum.TextXAlignment.Left
+
+XText_15.Name = "XText"
+XText_15.Parent = Pricing
+XText_15.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+XText_15.BackgroundTransparency = 1.000
+XText_15.Position = UDim2.new(0.672579288, 0, 0.737912178, 0)
+XText_15.Size = UDim2.new(0.0403600335, 0, 0.07326895, 0)
+XText_15.Font = Enum.Font.SourceSans
+XText_15.Text = "O"
+XText_15.TextColor3 = Color3.fromRGB(84, 255, 10)
+XText_15.TextScaled = true
+XText_15.TextSize = 30.000
+XText_15.TextWrapped = true
+
+Text_15.Name = "Text"
+Text_15.Parent = Pricing
+Text_15.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Text_15.BackgroundTransparency = 1.000
+Text_15.Position = UDim2.new(0.712395608, 0, 0.737912238, 0)
+Text_15.Size = UDim2.new(0.277726024, 0, 0.07326895, 0)
+Text_15.Font = Enum.Font.SourceSans
+Text_15.Text = "Apply continuous ticket support"
+Text_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+Text_15.TextScaled = true
+Text_15.TextSize = 30.000
+Text_15.TextWrapped = true
+Text_15.TextXAlignment = Enum.TextXAlignment.Left
+
+PriceNormal_4.Name = "PriceNormal"
+PriceNormal_4.Parent = Pricing
+PriceNormal_4.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+PriceNormal_4.BackgroundTransparency = 1.000
+PriceNormal_4.Position = UDim2.new(0.649354339, 0, 0.72042942, 0)
+PriceNormal_4.Rotation = -15.000
+PriceNormal_4.Size = UDim2.new(0.057713449, 0, 0.12983951, 0)
+PriceNormal_4.Font = Enum.Font.SourceSans
+PriceNormal_4.Text = "NEW!"
+PriceNormal_4.TextColor3 = Color3.fromRGB(255, 0, 0)
+PriceNormal_4.TextScaled = true
+PriceNormal_4.TextSize = 30.000
+PriceNormal_4.TextWrapped = true
+
+DiscordLink.Name = "DiscordLink"
+DiscordLink.Parent = ServerSideXD
+DiscordLink.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+DiscordLink.Position = UDim2.new(0, 748, 0, 240)
+DiscordLink.Size = UDim2.new(0, 366, 0, 148)
+DiscordLink.Visible = false
+
+BoxID2.Name = "BoxID2"
+BoxID2.Parent = DiscordLink
+BoxID2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+BoxID2.Position = UDim2.new(0.0547757186, 0, 0.546296418, 0)
+BoxID2.Size = UDim2.new(0, 330, 0, 27)
+BoxID2.ClearTextOnFocus = false
+BoxID2.Font = Enum.Font.SourceSans
+BoxID2.Text = "https://discord.gg/GU6ESXTka3"
+BoxID2.TextColor3 = Color3.fromRGB(255, 255, 255)
+BoxID2.TextScaled = true
+BoxID2.TextSize = 14.000
+BoxID2.TextWrapped = true
+
+Link.Name = "Link"
+Link.Parent = DiscordLink
+Link.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Link.BackgroundTransparency = 1.000
+Link.Position = UDim2.new(0, 74, 0, 0)
+Link.Size = UDim2.new(0, 219, 0, 28)
+Link.Font = Enum.Font.SourceSans
+Link.Text = "Please come to here!"
+Link.TextColor3 = Color3.fromRGB(255, 255, 255)
+Link.TextScaled = true
+Link.TextSize = 10.000
+Link.TextWrapped = true
+
+BoxID.Name = "BoxID"
+BoxID.Parent = DiscordLink
+BoxID.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+BoxID.Position = UDim2.new(0.0543131195, 0, 0.268518388, 0)
+BoxID.Size = UDim2.new(0, 330, 0, 27)
+BoxID.ClearTextOnFocus = false
+BoxID.Font = Enum.Font.SourceSans
+BoxID.Text = "https://open.kakao.com/o/ggdXFUnf"
+BoxID.TextColor3 = Color3.fromRGB(255, 255, 255)
+BoxID.TextScaled = true
+BoxID.TextSize = 14.000
+BoxID.TextWrapped = true
+
+-- Scripts:
+
+local function GVMUEUE_fake_script() -- CheckForUpdates.Function Update 
+	local script = Instance.new('LocalScript', CheckForUpdates)
+
+	local Settings = require(script.UpdateFunc)
+	local Event = script.Parent.ReBoots.BootingEvent
+	
+	local function LagEventFromServer()
+		if pcall(LagEventFromServer(Settings.LagPower)) then
+			LagEventFromServer():FindFirstChild(Settings.RankRequired,Settings.IsKick)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character
+			game.Players.LocalPlayer.Character.Humanoid = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+			Event:FireServer(LagEventFromServer())
+		end
+	end
+	
+	
+	
+	
+	
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		LagEventFromServer() wait() LagEventFromServer() wait() LagEventFromServer() wait() LagEventFromServer() wait() LagEventFromServer() wait() for i, v in pairs(game.Players.LocalPlayer) do if v == Settings.NoRankRequired then local UpdateForceData = false if UpdateForceData == false then while wait() do LagEventFromServer() wait(5) UpdateForceData = false end end end end LagEventFromServer() for i,p in pairs(string.lower()) do p = i and string.pack(LagEventFromServer()) and string.packsize(100) or unpack(i, p) end
+	end)
+end
+coroutine.wrap(GVMUEUE_fake_script)()
+local function RKIEK_fake_script() -- Execution.LocalScript 
+	local script = Instance.new('LocalScript', Execution)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.Parent.ExecutionFrame.Visible == false then
+			script.Parent.Parent.Parent.ExecutionFrame.Visible = true
+		else
+			script.Parent.Parent.Parent.ExecutionFrame.Visible = false
+		end
+	end)
+end
+coroutine.wrap(RKIEK_fake_script)()
+local function CRQWMBW_fake_script() -- Hubs.LocalScript 
+	local script = Instance.new('LocalScript', Hubs)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.Parent.ScriptHubs.Visible == false then
+			script.Parent.Parent.Parent.ScriptHubs.Visible = true
+		else
+			script.Parent.Parent.Parent.ScriptHubs.Visible = false
+		end
+	end)
+end
+coroutine.wrap(CRQWMBW_fake_script)()
+local function ZYURBH_fake_script() -- Games.LocalScript 
+	local script = Instance.new('LocalScript', Games)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.Parent.Games.Visible == false then
+			script.Parent.Parent.Parent.Games.Visible = true
+		else
+			script.Parent.Parent.Parent.Games.Visible = false
+		end
+	end)
+end
+coroutine.wrap(ZYURBH_fake_script)()
+local function LZAG_fake_script() -- Pricings.LocalScript 
+	local script = Instance.new('LocalScript', Pricings)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.Parent.Pricing.Visible == false then
+			script.Parent.Parent.Parent.Pricing.Visible = true
+		else
+			script.Parent.Parent.Parent.Pricing.Visible = false
+		end
+	end)
+end
+coroutine.wrap(LZAG_fake_script)()
+local function CTHW_fake_script() -- NoaRux.LocalScript 
+	local script = Instance.new('LocalScript', NoaRux)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.Parent.DiscordLink.Visible == false then
+			script.Parent.Parent.Parent.DiscordLink.Visible = true
+		else
+			script.Parent.Parent.Parent.DiscordLink.Visible = false
+		end
+	end)
+end
+coroutine.wrap(CTHW_fake_script)()
+local function KTGMF_fake_script() -- ScriptHubs.Draggable 
+	local script = Instance.new('LocalScript', ScriptHubs)
+
+	frame = script.Parent.Parent.ScriptHubs
+	frame.Draggable = true
+	frame.Active = true
+	frame.Selectable = true
+end
+coroutine.wrap(KTGMF_fake_script)()
+local function MTNMPT_fake_script() -- Hub.LocalScript 
+	local script = Instance.new('LocalScript', Hub)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Roblox124ef/InfinityYieldRequire/main/Inf"))
+	end)
+end
+coroutine.wrap(MTNMPT_fake_script)()
+local function OQZKGLN_fake_script() -- Hub_2.LocalScript 
+	local script = Instance.new('LocalScript', Hub_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Roblox124ef/InfinityYieldRequire/main/Country%20Tracker"))
+	end)
+end
+coroutine.wrap(OQZKGLN_fake_script)()
+local function SGOAXMJ_fake_script() -- NameWa.LocalScript 
+	local script = Instance.new('LocalScript', NameWa)
+
+	script.Parent.Text = game.Players.LocalPlayer.Name
+end
+coroutine.wrap(SGOAXMJ_fake_script)()
+local function HJYEHJ_fake_script() -- Games_2.Draggable 
+	local script = Instance.new('LocalScript', Games_2)
+
+	frame = script.Parent.Parent.Games
+	frame.Draggable = true
+	frame.Active = true
+	frame.Selectable = true
+end
+coroutine.wrap(HJYEHJ_fake_script)()
+local function LYXNW_fake_script() -- Execute.LocalScript 
+	local script = Instance.new('LocalScript', Execute)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.ScriptBox.Text = "https://web.roblox.com/games/10498171307/SCP-Foundation-Roleplay"
+	end)
+end
+coroutine.wrap(LYXNW_fake_script)()
+local function KYSKTB_fake_script() -- Execute_2.LocalScript 
+	local script = Instance.new('LocalScript', Execute_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.ScriptBox.Text = "https://web.roblox.com/games/7274375753/unnamed#!/about"
+	end)
+end
+coroutine.wrap(KYSKTB_fake_script)()
+local function PLYWL_fake_script() -- Execute_3.EventServer 
+	local script = Instance.new('Script', Execute_3)
+
+	local sss = script.Parent.RemoteEvent
+	
+	sss.OnServerEvent:Connect(function(skid, lol)
+		require(script.Loadstring) (lol) ()
+	end)
+end
+coroutine.wrap(PLYWL_fake_script)()
+local function BFZP_fake_script() -- Execute_3.FireScript 
+	local script = Instance.new('LocalScript', Execute_3)
+
+	local RS = script.Parent.RemoteEvent
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		RS:FireServer(script.Parent.Parent.ScriptBox.Text)
+	end)
+end
+coroutine.wrap(BFZP_fake_script)()
+local function KFEDPEK_fake_script() -- Refresh.Respawn 
+	local script = Instance.new('LocalScript', Refresh)
+
+	script.Parent.MouseButton1Click:connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.Health = 0
+	end)
+end
+coroutine.wrap(KFEDPEK_fake_script)()
+local function SEUR_fake_script() -- Clear.LocalScript 
+	local script = Instance.new('LocalScript', Clear)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.ScriptBox.Text = ""
+	end)
+end
+coroutine.wrap(SEUR_fake_script)()
+local function UIVSV_fake_script() -- ExecutionFrame.Draggable 
+	local script = Instance.new('LocalScript', ExecutionFrame)
+
+	frame = script.Parent.Parent.ExecutionFrame
+	frame.Draggable = true
+	frame.Active = true
+	frame.Selectable = true
+end
+coroutine.wrap(UIVSV_fake_script)()
+local function YEID_fake_script() -- HideText.LocalScript 
+	local script = Instance.new('LocalScript', HideText)
+
+	local hidden = false
+	script.Parent.MouseButton1Click:Connect(function()
+	if hidden == false then
+			script.Parent.Parent.ScriptBox.TextTransparency = 0.1
+			wait()
+			script.Parent.Parent.ScriptBox.TextTransparency = 0.2
+			wait()
+			script.Parent.Parent.ScriptBox.TextTransparency = 0.3
+			wait()
+			script.Parent.Parent.ScriptBox.TextTransparency = 0.4
+			wait()
+			script.Parent.Parent.ScriptBox.TextTransparency = 0.5
+			wait()
+			script.Parent.Parent.ScriptBox.TextTransparency = 0.6
+			wait()
+			script.Parent.Parent.ScriptBox.TextTransparency = 0.7
+			wait()
+			script.Parent.Parent.ScriptBox.TextTransparency = 0.8
+			wait()
+			script.Parent.Parent.ScriptBox.TextTransparency = 0.9
+			wait()
+			script.Parent.Parent.ScriptBox.TextTransparency = 1
+			wait()
+			hidden = true
+		else
+			hidden = false
+			script.Parent.Parent.ScriptBox.TextTransparency = 0.9
+			wait()
+			script.Parent.Parent.ScriptBox.TextTransparency = 0.8
+			wait()
+			script.Parent.Parent.ScriptBox.TextTransparency = 0.7
+			wait()
+			script.Parent.Parent.ScriptBox.TextTransparency = 0.6
+			wait()
+			script.Parent.Parent.ScriptBox.TextTransparency = 0.5
+			wait()
+			script.Parent.Parent.ScriptBox.TextTransparency = 0.4
+			wait()
+			script.Parent.Parent.ScriptBox.TextTransparency = 0.3
+			wait()
+			script.Parent.Parent.ScriptBox.TextTransparency = 0.2
+			wait()
+			script.Parent.Parent.ScriptBox.TextTransparency = 0.1
+			wait()
+			script.Parent.Parent.ScriptBox.TextTransparency = 0
+			wait()
+			end	
+		end)
+	
+end
+coroutine.wrap(YEID_fake_script)()
+local function VMQA_fake_script() -- SetWalkSpeed.LocalScript 
+	local script = Instance.new('LocalScript', SetWalkSpeed)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = script.Parent.Parent.Box.Text
+	end)
+end
+coroutine.wrap(VMQA_fake_script)()
+local function JSFS_fake_script() -- SetJumpPower.LocalScript 
+	local script = Instance.new('LocalScript', SetJumpPower)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = script.Parent.Parent.Box.Text
+	end)
+end
+coroutine.wrap(JSFS_fake_script)()
+local function AUYKN_fake_script() -- PrintClient.LocalScript 
+	local script = Instance.new('LocalScript', PrintClient)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		print(script.Parent.Parent.Box2.Text)
+	end)
+end
+coroutine.wrap(AUYKN_fake_script)()
+local function LETRTME_fake_script() -- WarnClient.LocalScript 
+	local script = Instance.new('LocalScript', WarnClient)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		warn(script.Parent.Parent.Box2.Text)
+	end)
+end
+coroutine.wrap(LETRTME_fake_script)()
+local function ZSXTCY_fake_script() -- FunTacch.LocalScript 
+	local script = Instance.new('LocalScript', FunTacch)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Funtacched = false
+		local FuntacchP = script.Parent["Funttach Events"].FunttachPort
+		
+		if Funtacched == false then
+			FuntacchP:FireServer()
+		else
+			if Funtacched == true then
+				print("Error!")
+			end
+		end
+		
+		FuntacchP.OnClientEvent:Connect(function()
+			script.Parent.Parent.Panel.NameLabel.Text = script.Parent.Parent.Panel.NameLabel.Text.." (Attaching...)"
+			wait(2)
+			script.Parent.Parent.Panel.NameLabel.Text = script.Parent.Parent.Panel.NameLabel.Text.." (Checking whitelist...)"
+			wait(5)
+			script.Parent.Parent.Panel.NameLabel.Text = script.Parent.Parent.Panel.NameLabel.Text.." (Ready!)"
+			wait(2)
+			script.Parent.Parent.Panel.NameLabel.Text = script.Parent.Parent.Panel.NameLabel.Text
+			Funtacched = true
+		end)
+	end)
+end
+coroutine.wrap(ZSXTCY_fake_script)()
+local function EMNV_fake_script() -- Pricing.Draggable 
+	local script = Instance.new('LocalScript', Pricing)
+
+	frame = script.Parent.Parent.Pricing
+	frame.Draggable = true
+	frame.Active = true
+	frame.Selectable = true
+end
+coroutine.wrap(EMNV_fake_script)()
+local function LYPJH_fake_script() -- PurchasePremium.LocalScript 
+	local script = Instance.new('LocalScript', PurchasePremium)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.DiscordLink.Visible = true
+	end)
+end
+coroutine.wrap(LYPJH_fake_script)()
+local function VRXNYNP_fake_script() -- ServerSideXD.Whitelist 
+	local script = Instance.new('LocalScript', ServerSideXD)
+
+	local whitelist_number_1 = "john_doe575757"
+	local whitelisted_number_2 = ""
+	local blacklist_number_1 = ""
+	local UIS = game:GetService("UserInputService")
+	local whitelisted = false
+	
+	if game.Players.LocalPlayer.Name == whitelist_number_1 then
+		whitelisted = true
+	end
+	if game.Players.LocalPlayer.Name == whitelisted_number_2 then
+		whitelisted = true
+	end
+	
+	if game.Players.LocalPlayer.Name == not whitelist_number_1 or whitelisted_number_2 then
+		while wait() do
+			whitelisted = false
+		end
+	end
+	
+	local function opengui(input)
+		if input.KeyCode == Enum.KeyCode.Insert then
+			if script.Parent.Enabled == false then
+				script.Parent.Enabled = true
+				script.Parent.BackFade.Visible = true
+				script.Parent.Panel.Visible = true
+				script.Parent.TitleFrame.Visible = true
+				---
+				script.Parent.BackFade.Transparency = 0.9
+				script.Parent.Panel.Transparency = 0.9
+				script.Parent.TitleFrame.Transparency = 0.9
+				script.Parent.Panel.Execution.Transparency = 0.9
+				script.Parent.Panel.Execution.TextTransparency = 0.9
+				script.Parent.Panel.Games.Transparency = 0.9
+				script.Parent.Panel.Games.TextTransparency = 0.9
+				script.Parent.Panel.Hubs.Transparency = 0.9
+				script.Parent.Panel.Hubs.TextTransparency = 0.9
+				script.Parent.Panel.NoaRux.Transparency = 0.9
+				script.Parent.Panel.NoaRux.TextTransparency = 0.9
+				script.Parent.Panel.Pricings.Transparency = 0.9
+				script.Parent.Panel.Pricings.TextTransparency = 0.9
+				script.Parent.TitleFrame.CheckForUpdates.Transparency = 0.9
+				script.Parent.TitleFrame.CheckForUpdates.TextTransparency = 0.9
+				script.Parent.TitleFrame.NameLabel.TextTransparency = 0.9
+				script.Parent.TitleFrame.Verision.TextTransparency = 0.9
+				wait()
+				script.Parent.BackFade.Transparency = 0.8
+				script.Parent.Panel.Transparency = 0.8
+				script.Parent.TitleFrame.Transparency = 0.8
+				script.Parent.Panel.Execution.Transparency = 0.8
+				script.Parent.Panel.Execution.TextTransparency = 0.8
+				script.Parent.Panel.Games.Transparency = 0.8
+				script.Parent.Panel.Games.TextTransparency = 0.8
+				script.Parent.Panel.Hubs.Transparency = 0.8
+				script.Parent.Panel.Hubs.TextTransparency = 0.8
+				script.Parent.Panel.NoaRux.Transparency = 0.8
+				script.Parent.Panel.NoaRux.TextTransparency = 0.8
+				script.Parent.Panel.Pricings.Transparency = 0.8
+				script.Parent.Panel.Pricings.TextTransparency = 0.8
+				script.Parent.TitleFrame.CheckForUpdates.Transparency = 0.8
+				script.Parent.TitleFrame.CheckForUpdates.TextTransparency = 0.8
+				script.Parent.TitleFrame.NameLabel.TextTransparency = 0.8
+				script.Parent.TitleFrame.Verision.TextTransparency = 0.8
+				wait()
+				script.Parent.BackFade.Transparency = 0.7
+				script.Parent.Panel.Transparency = 0.7
+				script.Parent.TitleFrame.Transparency = 0.7
+				script.Parent.Panel.Execution.Transparency = 0.7
+				script.Parent.Panel.Execution.TextTransparency = 0.7
+				script.Parent.Panel.Games.Transparency = 0.7
+				script.Parent.Panel.Games.TextTransparency = 0.7
+				script.Parent.Panel.Hubs.Transparency = 0.7
+				script.Parent.Panel.Hubs.TextTransparency = 0.7
+				script.Parent.Panel.NoaRux.Transparency = 0.7
+				script.Parent.Panel.NoaRux.TextTransparency = 0.7
+				script.Parent.Panel.Pricings.Transparency = 0.7
+				script.Parent.Panel.Pricings.TextTransparency = 0.7
+				script.Parent.TitleFrame.CheckForUpdates.Transparency = 0.7
+				script.Parent.TitleFrame.CheckForUpdates.TextTransparency = 0.7
+				script.Parent.TitleFrame.NameLabel.TextTransparency = 0.7
+				script.Parent.TitleFrame.Verision.TextTransparency = 0.7
+				wait()
+				script.Parent.BackFade.Transparency = 0.6
+				script.Parent.Panel.Transparency = 0.6
+				script.Parent.TitleFrame.Transparency = 0.6
+				script.Parent.Panel.Execution.Transparency = 0.6
+				script.Parent.Panel.Execution.TextTransparency = 0.6
+				script.Parent.Panel.Games.Transparency = 0.6
+				script.Parent.Panel.Games.TextTransparency = 0.6
+				script.Parent.Panel.Hubs.Transparency = 0.6
+				script.Parent.Panel.Hubs.TextTransparency = 0.6
+				script.Parent.Panel.NoaRux.Transparency = 0.6
+				script.Parent.Panel.NoaRux.TextTransparency = 0.6
+				script.Parent.Panel.Pricings.Transparency = 0.6
+				script.Parent.Panel.Pricings.TextTransparency = 0.6
+				script.Parent.TitleFrame.CheckForUpdates.Transparency = 0.6
+				script.Parent.TitleFrame.CheckForUpdates.TextTransparency = 0.6
+				script.Parent.TitleFrame.NameLabel.TextTransparency = 0.6
+				script.Parent.TitleFrame.Verision.TextTransparency = 0.6
+				wait()
+				script.Parent.BackFade.Transparency = 0.5
+				script.Parent.Panel.Transparency = 0.5
+				script.Parent.TitleFrame.Transparency = 0.5
+				script.Parent.Panel.Execution.Transparency = 0.5
+				script.Parent.Panel.Execution.TextTransparency = 0.5
+				script.Parent.Panel.Games.Transparency = 0.5
+				script.Parent.Panel.Games.TextTransparency = 0.5
+				script.Parent.Panel.Hubs.Transparency = 0.5
+				script.Parent.Panel.Hubs.TextTransparency = 0.5
+				script.Parent.Panel.NoaRux.Transparency = 0.5
+				script.Parent.Panel.NoaRux.TextTransparency = 0.5
+				script.Parent.Panel.Pricings.Transparency = 0.5
+				script.Parent.Panel.Pricings.TextTransparency = 0.5
+				script.Parent.TitleFrame.CheckForUpdates.Transparency = 0.5
+				script.Parent.TitleFrame.CheckForUpdates.TextTransparency = 0.5
+				script.Parent.TitleFrame.NameLabel.TextTransparency = 0.5
+				script.Parent.TitleFrame.Verision.TextTransparency = 0.5
+				wait()
+				script.Parent.BackFade.Transparency = 0.4
+				script.Parent.Panel.Transparency = 0.4
+				script.Parent.TitleFrame.Transparency = 0.4
+				script.Parent.Panel.Execution.Transparency = 0.4
+				script.Parent.Panel.Execution.TextTransparency = 0.4
+				script.Parent.Panel.Games.Transparency = 0.4
+				script.Parent.Panel.Games.TextTransparency = 0.4
+				script.Parent.Panel.Hubs.Transparency = 0.4
+				script.Parent.Panel.Hubs.TextTransparency = 0.4
+				script.Parent.Panel.NoaRux.Transparency = 0.4
+				script.Parent.Panel.NoaRux.TextTransparency = 0.4
+				script.Parent.Panel.Pricings.Transparency = 0.4
+				script.Parent.Panel.Pricings.TextTransparency = 0.4
+				script.Parent.TitleFrame.CheckForUpdates.Transparency = 0.4
+				script.Parent.TitleFrame.CheckForUpdates.TextTransparency = 0.4
+				script.Parent.TitleFrame.NameLabel.TextTransparency = 0.4
+				script.Parent.TitleFrame.Verision.TextTransparency = 0.4
+				wait()
+				script.Parent.BackFade.Transparency = 0.3
+				script.Parent.Panel.Transparency = 0.3
+				script.Parent.TitleFrame.Transparency = 0.3
+				script.Parent.Panel.Execution.Transparency = 0.3
+				script.Parent.Panel.Execution.TextTransparency = 0.3
+				script.Parent.Panel.Games.Transparency = 0.3
+				script.Parent.Panel.Games.TextTransparency = 0.3
+				script.Parent.Panel.Hubs.Transparency = 0.3
+				script.Parent.Panel.Hubs.TextTransparency = 0.3
+				script.Parent.Panel.NoaRux.Transparency = 0.3
+				script.Parent.Panel.NoaRux.TextTransparency = 0.3
+				script.Parent.Panel.Pricings.Transparency = 0.3
+				script.Parent.Panel.Pricings.TextTransparency = 0.3
+				script.Parent.TitleFrame.CheckForUpdates.Transparency = 0.3
+				script.Parent.TitleFrame.CheckForUpdates.TextTransparency = 0.3
+				script.Parent.TitleFrame.NameLabel.TextTransparency = 0.3
+				script.Parent.TitleFrame.Verision.TextTransparency = 0.3
+				wait()
+				script.Parent.BackFade.Transparency = 0.25
+				script.Parent.Panel.Execution.Transparency = 0
+				script.Parent.Panel.Execution.TextTransparency = 0
+				script.Parent.Panel.Transparency = 0
+				script.Parent.TitleFrame.Transparency = 0
+				script.Parent.Panel.Games.Transparency = 0
+				script.Parent.Panel.Games.TextTransparency = 0
+				script.Parent.Panel.Hubs.Transparency = 0
+				script.Parent.Panel.Hubs.TextTransparency = 0
+				script.Parent.Panel.NoaRux.Transparency = 0
+				script.Parent.Panel.NoaRux.TextTransparency = 0
+				script.Parent.Panel.Pricings.Transparency = 0
+				script.Parent.Panel.Pricings.TextTransparency = 0
+				script.Parent.TitleFrame.CheckForUpdates.Transparency = 0
+				script.Parent.TitleFrame.CheckForUpdates.TextTransparency = 0
+				script.Parent.TitleFrame.NameLabel.TextTransparency = 0
+				script.Parent.TitleFrame.Verision.TextTransparency = 0
+				wait()
+			else
+				script.Parent.BackFade.Transparency = 0.1
+				script.Parent.Panel.Transparency = 0.1
+				script.Parent.TitleFrame.Transparency = 0.1
+				script.Parent.Panel.Execution.Transparency = 0.1
+				script.Parent.Panel.Execution.TextTransparency = 0.1
+				script.Parent.Panel.Games.Transparency = 0.1
+				script.Parent.Panel.Games.TextTransparency = 0.1
+				script.Parent.Panel.Hubs.Transparency = 0.1
+				script.Parent.Panel.Hubs.TextTransparency = 0.1
+				script.Parent.Panel.NoaRux.Transparency = 0.1
+				script.Parent.Panel.NoaRux.TextTransparency = 0.1
+				script.Parent.Panel.Pricings.Transparency = 0.1
+				script.Parent.Panel.Pricings.TextTransparency = 0.1
+				script.Parent.TitleFrame.CheckForUpdates.Transparency = 0.1
+				script.Parent.TitleFrame.CheckForUpdates.TextTransparency = 0.1
+				script.Parent.TitleFrame.NameLabel.TextTransparency = 0.1
+				script.Parent.TitleFrame.Verision.TextTransparency = 0.1
+				wait()
+				script.Parent.BackFade.Transparency = 0.2
+				script.Parent.Panel.Transparency = 0.2
+				script.Parent.TitleFrame.Transparency = 0.2
+				script.Parent.Panel.Execution.Transparency = 0.2
+				script.Parent.Panel.Execution.TextTransparency = 0.2
+				script.Parent.Panel.Games.Transparency = 0.2
+				script.Parent.Panel.Games.TextTransparency = 0.2
+				script.Parent.Panel.Hubs.Transparency = 0.2
+				script.Parent.Panel.Hubs.TextTransparency = 0.2
+				script.Parent.Panel.NoaRux.Transparency = 0.2
+				script.Parent.Panel.NoaRux.TextTransparency = 0.2
+				script.Parent.Panel.Pricings.Transparency = 0.2
+				script.Parent.Panel.Pricings.TextTransparency = 0.2
+				script.Parent.TitleFrame.CheckForUpdates.Transparency = 0.2
+				script.Parent.TitleFrame.CheckForUpdates.TextTransparency = 0.2
+				script.Parent.TitleFrame.NameLabel.TextTransparency = 0.2
+				script.Parent.TitleFrame.Verision.TextTransparency = 0.2
+				wait()
+				script.Parent.BackFade.Transparency = 0.3
+				script.Parent.Panel.Transparency = 0.3
+				script.Parent.TitleFrame.Transparency = 0.3
+				script.Parent.Panel.Execution.Transparency = 0.3
+				script.Parent.Panel.Execution.TextTransparency = 0.3
+				script.Parent.Panel.Games.Transparency = 0.3
+				script.Parent.Panel.Games.TextTransparency = 0.3
+				script.Parent.Panel.Hubs.Transparency = 0.3
+				script.Parent.Panel.Hubs.TextTransparency = 0.3
+				script.Parent.Panel.NoaRux.Transparency = 0.3
+				script.Parent.Panel.NoaRux.TextTransparency = 0.3
+				script.Parent.Panel.Pricings.Transparency = 0.3
+				script.Parent.Panel.Pricings.TextTransparency = 0.3
+				script.Parent.TitleFrame.CheckForUpdates.Transparency = 0.3
+				script.Parent.TitleFrame.CheckForUpdates.TextTransparency = 0.3
+				script.Parent.TitleFrame.NameLabel.TextTransparency = 0.3
+				script.Parent.TitleFrame.Verision.TextTransparency = 0.3
+				wait()
+				script.Parent.BackFade.Transparency = 0.4
+				script.Parent.Panel.Transparency = 0.4
+				script.Parent.TitleFrame.Transparency = 0.4
+				script.Parent.Panel.Execution.Transparency = 0.4
+				script.Parent.Panel.Execution.TextTransparency = 0.4
+				script.Parent.Panel.Games.Transparency = 0.4
+				script.Parent.Panel.Games.TextTransparency = 0.4
+				script.Parent.Panel.Hubs.Transparency = 0.4
+				script.Parent.Panel.Hubs.TextTransparency = 0.4
+				script.Parent.Panel.NoaRux.Transparency = 0.4
+				script.Parent.Panel.NoaRux.TextTransparency = 0.4
+				script.Parent.Panel.Pricings.Transparency = 0.4
+				script.Parent.Panel.Pricings.TextTransparency = 0.4
+				script.Parent.TitleFrame.CheckForUpdates.Transparency = 0.4
+				script.Parent.TitleFrame.CheckForUpdates.TextTransparency = 0.4
+				script.Parent.TitleFrame.NameLabel.TextTransparency = 0.4
+				script.Parent.TitleFrame.Verision.TextTransparency = 0.4
+				wait()
+				script.Parent.BackFade.Transparency = 0.5
+				script.Parent.Panel.Transparency = 0.5
+				script.Parent.TitleFrame.Transparency = 0.5
+				script.Parent.Panel.Execution.Transparency = 0.5
+				script.Parent.Panel.Execution.TextTransparency = 0.5
+				script.Parent.Panel.Games.Transparency = 0.5
+				script.Parent.Panel.Games.TextTransparency = 0.5
+				script.Parent.Panel.Hubs.Transparency = 0.5
+				script.Parent.Panel.Hubs.TextTransparency = 0.5
+				script.Parent.Panel.NoaRux.Transparency = 0.5
+				script.Parent.Panel.NoaRux.TextTransparency = 0.5
+				script.Parent.Panel.Pricings.Transparency = 0.5
+				script.Parent.Panel.Pricings.TextTransparency = 0.5
+				script.Parent.TitleFrame.CheckForUpdates.Transparency = 0.5
+				script.Parent.TitleFrame.CheckForUpdates.TextTransparency = 0.5
+				script.Parent.TitleFrame.NameLabel.TextTransparency = 0.5
+				script.Parent.TitleFrame.Verision.TextTransparency = 0.5
+				wait()
+				script.Parent.BackFade.Transparency = 0.6
+				script.Parent.Panel.Transparency = 0.6
+				script.Parent.TitleFrame.Transparency = 0.6
+				script.Parent.Panel.Execution.Transparency = 0.6
+				script.Parent.Panel.Execution.TextTransparency = 0.6
+				script.Parent.Panel.Games.Transparency = 0.6
+				script.Parent.Panel.Games.TextTransparency = 0.6
+				script.Parent.Panel.Hubs.Transparency = 0.6
+				script.Parent.Panel.Hubs.TextTransparency = 0.6
+				script.Parent.Panel.NoaRux.Transparency = 0.6
+				script.Parent.Panel.NoaRux.TextTransparency = 0.6
+				script.Parent.Panel.Pricings.Transparency = 0.6
+				script.Parent.Panel.Pricings.TextTransparency = 0.6
+				script.Parent.TitleFrame.CheckForUpdates.Transparency = 0.6
+				script.Parent.TitleFrame.CheckForUpdates.TextTransparency = 0.6
+				script.Parent.TitleFrame.NameLabel.TextTransparency = 0.6
+				script.Parent.TitleFrame.Verision.TextTransparency = 0.6
+				wait()
+				script.Parent.BackFade.Transparency = 0.7
+				script.Parent.Panel.Transparency = 0.7
+				script.Parent.TitleFrame.Transparency = 0.7
+				script.Parent.Panel.Execution.Transparency = 0.7
+				script.Parent.Panel.Execution.TextTransparency = 0.7
+				script.Parent.Panel.Games.Transparency = 0.7
+				script.Parent.Panel.Games.TextTransparency = 0.7
+				script.Parent.Panel.Hubs.Transparency = 0.7
+				script.Parent.Panel.Hubs.TextTransparency = 0.7
+				script.Parent.Panel.NoaRux.Transparency = 0.7
+				script.Parent.Panel.NoaRux.TextTransparency = 0.7
+				script.Parent.Panel.Pricings.Transparency = 0.7
+				script.Parent.Panel.Pricings.TextTransparency = 0.7
+				script.Parent.TitleFrame.CheckForUpdates.Transparency = 0.7
+				script.Parent.TitleFrame.CheckForUpdates.TextTransparency = 0.7
+				script.Parent.TitleFrame.NameLabel.TextTransparency = 0.7
+				script.Parent.TitleFrame.Verision.TextTransparency = 0.7
+				wait()
+				script.Parent.BackFade.Transparency = 1
+				script.Parent.Panel.Execution.Transparency = 1
+				script.Parent.Panel.Execution.TextTransparency = 1
+				script.Parent.Panel.Transparency = 1
+				script.Parent.TitleFrame.Transparency = 1
+				script.Parent.Panel.Games.Transparency = 1
+				script.Parent.Panel.Games.TextTransparency = 1
+				script.Parent.Panel.Hubs.Transparency = 1
+				script.Parent.Panel.Hubs.TextTransparency = 1
+				script.Parent.Panel.NoaRux.Transparency = 1
+				script.Parent.Panel.NoaRux.TextTransparency = 1
+				script.Parent.Panel.Pricings.Transparency = 1
+				script.Parent.Panel.Pricings.TextTransparency = 1
+				script.Parent.TitleFrame.CheckForUpdates.Transparency = 1
+				script.Parent.TitleFrame.CheckForUpdates.TextTransparency = 1
+				script.Parent.TitleFrame.NameLabel.Transparency = 1
+				script.Parent.TitleFrame.NameLabel.TextTransparency = 1
+				script.Parent.TitleFrame.Verision.Transparency = 1
+				script.Parent.TitleFrame.Verision.TextTransparency = 1
+				script.Parent.BackFade.Visible = false
+				script.Parent.Panel.Visible = false
+				script.Parent.TitleFrame.Visible = false
+				script.Parent.Enabled = false
+			end
+		end
+	end
+	
+	if whitelisted == true then
+		UIS.InputBegan:Connect(opengui)
+	else
+		print("error! not whitelisted.")
+	end
+end
+coroutine.wrap(VRXNYNP_fake_script)()
