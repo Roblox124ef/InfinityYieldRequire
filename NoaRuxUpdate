@@ -1,3 +1,5 @@
+game.StarterGui:SetCore("SendNotification", {Title = "LOL", Text = "Loaded V3"})
+
 -- Gui to Lua
 -- Version: 3.2
 
