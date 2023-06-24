@@ -13,7 +13,6 @@ local Verision = Instance.new("TextLabel")
 local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
 local CheckForUpdates = Instance.new("TextButton")
 local UICorner_2 = Instance.new("UICorner")
-local ReBoots = Instance.new("Folder")
 local Panel = Instance.new("Frame")
 local UICorner_3 = Instance.new("UICorner")
 local Execution = Instance.new("TextButton")
@@ -220,9 +219,6 @@ CheckForUpdates.TextWrapped = true
 
 UICorner_2.CornerRadius = UDim.new(0, 3)
 UICorner_2.Parent = CheckForUpdates
-
-ReBoots.Name = "ReBoots"
-ReBoots.Parent = CheckForUpdates
 
 Panel.Name = "Panel"
 Panel.Parent = ServerSideXD
@@ -1495,32 +1491,17 @@ BoxID.TextWrapped = true
 
 -- Scripts:
 
-local function GVMUEUE_fake_script() -- CheckForUpdates.Function Update 
+local function OYEFTIY_fake_script() -- CheckForUpdates.Function Update 
 	local script = Instance.new('LocalScript', CheckForUpdates)
 
-	local Settings = require(script.UpdateFunc)
-	local Event = script.Parent.ReBoots.BootingEvent
-	
-	local function LagEventFromServer()
-		if pcall(LagEventFromServer(Settings.LagPower)) then
-			LagEventFromServer():FindFirstChild(Settings.RankRequired,Settings.IsKick)
-			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character
-			game.Players.LocalPlayer.Character.Humanoid = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
-			Event:FireServer(LagEventFromServer())
-		end
-	end
-	
-	
-	
-	
-	
-	
 	script.Parent.MouseButton1Click:Connect(function()
-		LagEventFromServer() wait() LagEventFromServer() wait() LagEventFromServer() wait() LagEventFromServer() wait() LagEventFromServer() wait() for i, v in pairs(game.Players.LocalPlayer) do if v == Settings.NoRankRequired then local UpdateForceData = false if UpdateForceData == false then while wait() do LagEventFromServer() wait(5) UpdateForceData = false end end end end LagEventFromServer() for i,p in pairs(string.lower()) do p = i and string.pack(LagEventFromServer()) and string.packsize(100) or unpack(i, p) end
+		game.StarterGui:SetCore("SendNotification", {Title = "Message", Text = "Please press Insert"})
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Roblox124ef/InfinityYieldRequire/main/NoaRuxUpdate"), true)()
+		script.Parent.Parent.Parent.Parent.ServerSideXD:Destroy()
 	end)
 end
-coroutine.wrap(GVMUEUE_fake_script)()
-local function RKIEK_fake_script() -- Execution.LocalScript 
+coroutine.wrap(OYEFTIY_fake_script)()
+local function LCWQK_fake_script() -- Execution.LocalScript 
 	local script = Instance.new('LocalScript', Execution)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1531,8 +1512,8 @@ local function RKIEK_fake_script() -- Execution.LocalScript
 		end
 	end)
 end
-coroutine.wrap(RKIEK_fake_script)()
-local function CRQWMBW_fake_script() -- Hubs.LocalScript 
+coroutine.wrap(LCWQK_fake_script)()
+local function CJAUXS_fake_script() -- Hubs.LocalScript 
 	local script = Instance.new('LocalScript', Hubs)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1543,8 +1524,8 @@ local function CRQWMBW_fake_script() -- Hubs.LocalScript
 		end
 	end)
 end
-coroutine.wrap(CRQWMBW_fake_script)()
-local function ZYURBH_fake_script() -- Games.LocalScript 
+coroutine.wrap(CJAUXS_fake_script)()
+local function FPNMIGQ_fake_script() -- Games.LocalScript 
 	local script = Instance.new('LocalScript', Games)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1555,8 +1536,8 @@ local function ZYURBH_fake_script() -- Games.LocalScript
 		end
 	end)
 end
-coroutine.wrap(ZYURBH_fake_script)()
-local function LZAG_fake_script() -- Pricings.LocalScript 
+coroutine.wrap(FPNMIGQ_fake_script)()
+local function TLWUTD_fake_script() -- Pricings.LocalScript 
 	local script = Instance.new('LocalScript', Pricings)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1567,8 +1548,8 @@ local function LZAG_fake_script() -- Pricings.LocalScript
 		end
 	end)
 end
-coroutine.wrap(LZAG_fake_script)()
-local function CTHW_fake_script() -- NoaRux.LocalScript 
+coroutine.wrap(TLWUTD_fake_script)()
+local function IHGZZSY_fake_script() -- NoaRux.LocalScript 
 	local script = Instance.new('LocalScript', NoaRux)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1579,8 +1560,8 @@ local function CTHW_fake_script() -- NoaRux.LocalScript
 		end
 	end)
 end
-coroutine.wrap(CTHW_fake_script)()
-local function KTGMF_fake_script() -- ScriptHubs.Draggable 
+coroutine.wrap(IHGZZSY_fake_script)()
+local function ANYBXZ_fake_script() -- ScriptHubs.Draggable 
 	local script = Instance.new('LocalScript', ScriptHubs)
 
 	frame = script.Parent.Parent.ScriptHubs
@@ -1588,30 +1569,30 @@ local function KTGMF_fake_script() -- ScriptHubs.Draggable
 	frame.Active = true
 	frame.Selectable = true
 end
-coroutine.wrap(KTGMF_fake_script)()
-local function MTNMPT_fake_script() -- Hub.LocalScript 
+coroutine.wrap(ANYBXZ_fake_script)()
+local function QQMEMX_fake_script() -- Hub.LocalScript 
 	local script = Instance.new('LocalScript', Hub)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Roblox124ef/InfinityYieldRequire/main/Inf"))
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Roblox124ef/InfinityYieldRequire/main/Inf"), true)()
 	end)
 end
-coroutine.wrap(MTNMPT_fake_script)()
-local function OQZKGLN_fake_script() -- Hub_2.LocalScript 
+coroutine.wrap(QQMEMX_fake_script)()
+local function JJHPJ_fake_script() -- Hub_2.LocalScript 
 	local script = Instance.new('LocalScript', Hub_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Roblox124ef/InfinityYieldRequire/main/Country%20Tracker"))
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Roblox124ef/InfinityYieldRequire/main/Country%20Tracker"), true)()
 	end)
 end
-coroutine.wrap(OQZKGLN_fake_script)()
-local function SGOAXMJ_fake_script() -- NameWa.LocalScript 
+coroutine.wrap(JJHPJ_fake_script)()
+local function EFYQKUJ_fake_script() -- NameWa.LocalScript 
 	local script = Instance.new('LocalScript', NameWa)
 
 	script.Parent.Text = game.Players.LocalPlayer.Name
 end
-coroutine.wrap(SGOAXMJ_fake_script)()
-local function HJYEHJ_fake_script() -- Games_2.Draggable 
+coroutine.wrap(EFYQKUJ_fake_script)()
+local function OUQZAQ_fake_script() -- Games_2.Draggable 
 	local script = Instance.new('LocalScript', Games_2)
 
 	frame = script.Parent.Parent.Games
@@ -1619,24 +1600,24 @@ local function HJYEHJ_fake_script() -- Games_2.Draggable
 	frame.Active = true
 	frame.Selectable = true
 end
-coroutine.wrap(HJYEHJ_fake_script)()
-local function LYXNW_fake_script() -- Execute.LocalScript 
+coroutine.wrap(OUQZAQ_fake_script)()
+local function QBEQA_fake_script() -- Execute.LocalScript 
 	local script = Instance.new('LocalScript', Execute)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.ScriptBox.Text = "https://web.roblox.com/games/10498171307/SCP-Foundation-Roleplay"
 	end)
 end
-coroutine.wrap(LYXNW_fake_script)()
-local function KYSKTB_fake_script() -- Execute_2.LocalScript 
+coroutine.wrap(QBEQA_fake_script)()
+local function WKWL_fake_script() -- Execute_2.LocalScript 
 	local script = Instance.new('LocalScript', Execute_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.ScriptBox.Text = "https://web.roblox.com/games/7274375753/unnamed#!/about"
 	end)
 end
-coroutine.wrap(KYSKTB_fake_script)()
-local function PLYWL_fake_script() -- Execute_3.EventServer 
+coroutine.wrap(WKWL_fake_script)()
+local function SBAQIBB_fake_script() -- Execute_3.EventServer 
 	local script = Instance.new('Script', Execute_3)
 
 	local sss = script.Parent.RemoteEvent
@@ -1645,8 +1626,8 @@ local function PLYWL_fake_script() -- Execute_3.EventServer
 		require(script.Loadstring) (lol) ()
 	end)
 end
-coroutine.wrap(PLYWL_fake_script)()
-local function BFZP_fake_script() -- Execute_3.FireScript 
+coroutine.wrap(SBAQIBB_fake_script)()
+local function VNIOAQS_fake_script() -- Execute_3.FireScript 
 	local script = Instance.new('LocalScript', Execute_3)
 
 	local RS = script.Parent.RemoteEvent
@@ -1655,24 +1636,24 @@ local function BFZP_fake_script() -- Execute_3.FireScript
 		RS:FireServer(script.Parent.Parent.ScriptBox.Text)
 	end)
 end
-coroutine.wrap(BFZP_fake_script)()
-local function KFEDPEK_fake_script() -- Refresh.Respawn 
+coroutine.wrap(VNIOAQS_fake_script)()
+local function YSKKQZH_fake_script() -- Refresh.Respawn 
 	local script = Instance.new('LocalScript', Refresh)
 
 	script.Parent.MouseButton1Click:connect(function()
 		game.Players.LocalPlayer.Character.Humanoid.Health = 0
 	end)
 end
-coroutine.wrap(KFEDPEK_fake_script)()
-local function SEUR_fake_script() -- Clear.LocalScript 
+coroutine.wrap(YSKKQZH_fake_script)()
+local function HGJQZRH_fake_script() -- Clear.LocalScript 
 	local script = Instance.new('LocalScript', Clear)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.ScriptBox.Text = ""
 	end)
 end
-coroutine.wrap(SEUR_fake_script)()
-local function UIVSV_fake_script() -- ExecutionFrame.Draggable 
+coroutine.wrap(HGJQZRH_fake_script)()
+local function RQAGJIS_fake_script() -- ExecutionFrame.Draggable 
 	local script = Instance.new('LocalScript', ExecutionFrame)
 
 	frame = script.Parent.Parent.ExecutionFrame
@@ -1680,8 +1661,8 @@ local function UIVSV_fake_script() -- ExecutionFrame.Draggable
 	frame.Active = true
 	frame.Selectable = true
 end
-coroutine.wrap(UIVSV_fake_script)()
-local function YEID_fake_script() -- HideText.LocalScript 
+coroutine.wrap(RQAGJIS_fake_script)()
+local function XZRRV_fake_script() -- HideText.LocalScript 
 	local script = Instance.new('LocalScript', HideText)
 
 	local hidden = false
@@ -1734,40 +1715,40 @@ local function YEID_fake_script() -- HideText.LocalScript
 		end)
 	
 end
-coroutine.wrap(YEID_fake_script)()
-local function VMQA_fake_script() -- SetWalkSpeed.LocalScript 
+coroutine.wrap(XZRRV_fake_script)()
+local function TMXOC_fake_script() -- SetWalkSpeed.LocalScript 
 	local script = Instance.new('LocalScript', SetWalkSpeed)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = script.Parent.Parent.Box.Text
 	end)
 end
-coroutine.wrap(VMQA_fake_script)()
-local function JSFS_fake_script() -- SetJumpPower.LocalScript 
+coroutine.wrap(TMXOC_fake_script)()
+local function SEHCET_fake_script() -- SetJumpPower.LocalScript 
 	local script = Instance.new('LocalScript', SetJumpPower)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.Players.LocalPlayer.Character.Humanoid.JumpPower = script.Parent.Parent.Box.Text
 	end)
 end
-coroutine.wrap(JSFS_fake_script)()
-local function AUYKN_fake_script() -- PrintClient.LocalScript 
+coroutine.wrap(SEHCET_fake_script)()
+local function CYOOCOK_fake_script() -- PrintClient.LocalScript 
 	local script = Instance.new('LocalScript', PrintClient)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		print(script.Parent.Parent.Box2.Text)
 	end)
 end
-coroutine.wrap(AUYKN_fake_script)()
-local function LETRTME_fake_script() -- WarnClient.LocalScript 
+coroutine.wrap(CYOOCOK_fake_script)()
+local function AYKUYWL_fake_script() -- WarnClient.LocalScript 
 	local script = Instance.new('LocalScript', WarnClient)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		warn(script.Parent.Parent.Box2.Text)
 	end)
 end
-coroutine.wrap(LETRTME_fake_script)()
-local function ZSXTCY_fake_script() -- FunTacch.LocalScript 
+coroutine.wrap(AYKUYWL_fake_script)()
+local function FZFL_fake_script() -- FunTacch.LocalScript 
 	local script = Instance.new('LocalScript', FunTacch)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1794,8 +1775,8 @@ local function ZSXTCY_fake_script() -- FunTacch.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(ZSXTCY_fake_script)()
-local function EMNV_fake_script() -- Pricing.Draggable 
+coroutine.wrap(FZFL_fake_script)()
+local function MXUIPV_fake_script() -- Pricing.Draggable 
 	local script = Instance.new('LocalScript', Pricing)
 
 	frame = script.Parent.Parent.Pricing
@@ -1803,16 +1784,16 @@ local function EMNV_fake_script() -- Pricing.Draggable
 	frame.Active = true
 	frame.Selectable = true
 end
-coroutine.wrap(EMNV_fake_script)()
-local function LYPJH_fake_script() -- PurchasePremium.LocalScript 
+coroutine.wrap(MXUIPV_fake_script)()
+local function HFGV_fake_script() -- PurchasePremium.LocalScript 
 	local script = Instance.new('LocalScript', PurchasePremium)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.DiscordLink.Visible = true
 	end)
 end
-coroutine.wrap(LYPJH_fake_script)()
-local function VRXNYNP_fake_script() -- ServerSideXD.Whitelist 
+coroutine.wrap(HFGV_fake_script)()
+local function LQQFUK_fake_script() -- ServerSideXD.Whitelist 
 	local script = Instance.new('LocalScript', ServerSideXD)
 
 	local whitelist_number_1 = "john_doe575757"
@@ -1826,12 +1807,6 @@ local function VRXNYNP_fake_script() -- ServerSideXD.Whitelist
 	end
 	if game.Players.LocalPlayer.Name == whitelisted_number_2 then
 		whitelisted = true
-	end
-	
-	if game.Players.LocalPlayer.Name == not whitelist_number_1 or whitelisted_number_2 then
-		while wait() do
-			whitelisted = false
-		end
 	end
 	
 	local function opengui(input)
@@ -2146,4 +2121,4 @@ local function VRXNYNP_fake_script() -- ServerSideXD.Whitelist
 		print("error! not whitelisted.")
 	end
 end
-coroutine.wrap(VRXNYNP_fake_script)()
+coroutine.wrap(LQQFUK_fake_script)()
